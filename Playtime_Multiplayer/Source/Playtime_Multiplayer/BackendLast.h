@@ -1,76 +1,40 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Kismet/BlueprintAsyncActionBase.h"
-
-// Только VaRest
+#include "UObject/NoExportTypes.h"
 #include "VaRestRequestJSON.h"
-#include "VaRestSubsystem.h"
 #include "VaRestJsonObject.h"
-
 #include "BackendLast.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnSupabaseResponse, UVaRestJsonObject*, Result);
+// Делегаты с параметрами: возвращаем сам JSON объект и строку сообщения (если нужно)
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnSupabaseCallback, UVaRestJsonObject*, JsonData, const FString&, Message);
 
-UENUM(BlueprintType)
-enum class EBackendLastRequestType : uint8
+UCLASS(Blueprintable, BlueprintType)
+class PLAYTIME_MULTIPLAYER_API UBackendLast : public UObject
 {
-    GetPlayerData,
-    PurchaseItem
-};
-
-UCLASS()
-class PLAYTIME_MULTIPLAYER_API UBackendLast : public UBlueprintAsyncActionBase
-{
-    GENERATED_BODY()
+	GENERATED_BODY()
 
 public:
-    UPROPERTY(BlueprintAssignable)
-        FOnSupabaseResponse OnSuccess;
+	// События для Блупринта
+	UPROPERTY(BlueprintAssignable, Category = "Supabase|Events")
+		FOnSupabaseCallback OnSuccess;
 
-    UPROPERTY(BlueprintAssignable)
-        FOnSupabaseResponse OnFailure;
+	UPROPERTY(BlueprintAssignable, Category = "Supabase|Events")
+		FOnSupabaseCallback OnFailure;
 
-    // Добавил входной параметр SteamID напрямую в ноды
-    UFUNCTION(BlueprintCallable, meta = (BlueprintInternalUseOnly = "true", WorldContext = "WorldContextObject"), Category = "BackendLast|Supabase")
-        static UBackendLast* GetPlayerData(UObject* WorldContextObject, FString InSteamID);
-
-    UFUNCTION(BlueprintCallable, meta = (BlueprintInternalUseOnly = "true", WorldContext = "WorldContextObject"), Category = "BackendLast|Supabase")
-        static UBackendLast* PurchaseItem(
-            UObject* WorldContextObject,
-            FString InSteamID,
-            FString CurrencyType,
-            int32 ItemID,
-            FString ItemName,
-            int32 Price
-        );
-
-    virtual void Activate() override;
+	// Основная функция запроса
+	UFUNCTION(BlueprintCallable, Category = "Supabase|Actions")
+		void SendRequest(FString FunctionName, UVaRestJsonObject* Parameters);
 
 private:
-    UPROPERTY()
-        UObject* WorldContextObject = nullptr;
+	// Обработчики ответа VaRest
+	UFUNCTION()
+		void OnWebRequestCompleted(UVaRestRequestJSON* Request);
 
-    UPROPERTY()
-        UVaRestRequestJSON* ActiveRequest = nullptr;
+	UFUNCTION()
+		void OnWebRequestFailed(UVaRestRequestJSON* Request);
 
-    FString SteamID;
-    FString CurrencyType;
-    FString ItemName;
-    int32 ItemID = 0;
-    int32 Price = 0;
-
-    EBackendLastRequestType RequestType = EBackendLastRequestType::GetPlayerData;
-
-    void SendGetPlayerData();
-    void SendPurchaseItem();
-
-    UFUNCTION()
-        void HandleRequestComplete(UVaRestRequestJSON* Request);
-
-    UFUNCTION()
-        void HandleRequestFail(UVaRestRequestJSON* Request);
-
-    static FString GetSupabaseURL();
-    static FString GetAnonKey();
+	// Служебные данные
+	static FString GetBaseURL();
+	static FString GetApiKey();
 };

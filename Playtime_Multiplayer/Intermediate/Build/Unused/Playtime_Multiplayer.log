@@ -1,28 +1,34 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\LastStep\PROJECT-LAST-STEP).
+  Parsing headers for Playtime_MultiplayerEditor
+    Running UnrealHeaderTool "C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Playtime_Multiplayer.uproject" "C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\Playtime_MultiplayerEditor\Development\Playtime_MultiplayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Xdox2\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for Playtime_MultiplayerEditor in 66,554566 seconds
   Building Playtime_MultiplayerEditor...
   Using Visual Studio 2019 14.29.30159 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 12 actions with 4 processes...
-    [1/12] UE4Editor-AdvancedSteamSessions-0002.lib
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0002.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0002.exp
-    [2/12] UE4Editor-VaRest-0002.lib
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRest\UE4Editor-VaRest-0002.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRest\UE4Editor-VaRest-0002.exp
-    [3/12] UE4Editor-AdvancedSessions-0002.lib
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0002.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0002.exp
-    [4/12] UE4Editor-VaRestEditor-0002.lib
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRestEditor\UE4Editor-VaRestEditor-0002.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRestEditor\UE4Editor-VaRestEditor-0002.exp
-    [5/12] UE4Editor-VaRest-0002.dll
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRest\UE4Editor-VaRest-0002.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRest\UE4Editor-VaRest-0002.suppressed.exp
-    [6/12] UE4Editor-VaRestEditor-0002.dll
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRestEditor\UE4Editor-VaRestEditor-0002.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRestEditor\UE4Editor-VaRestEditor-0002.suppressed.exp
-    [7/12] UE4Editor-AdvancedSteamSessions-0002.dll
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0002.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0002.suppressed.exp
-    [8/12] UE4Editor-AdvancedSessions-0002.dll
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0002.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0002.suppressed.exp
-    [9/12] BackendLast.cpp
-    [10/12] UE4Editor-Playtime_Multiplayer-0002.lib
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer-0002.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer-0002.exp
-    [11/12] UE4Editor-Playtime_Multiplayer-0002.dll
-       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer-0002.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer-0002.suppressed.exp
-    [12/12] Playtime_MultiplayerEditor.target
-  Total time in Parallel executor: 92,29 seconds
-  Total execution time: 97,77 seconds
+  Building 14 actions with 4 processes...
+    [1/14] UE4Editor-AdvancedSteamSessions-0005.lib
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0005.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0005.exp
+    [2/14] UE4Editor-VaRest-0005.lib
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRest\UE4Editor-VaRest-0005.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRest\UE4Editor-VaRest-0005.exp
+    [3/14] UE4Editor-AdvancedSessions-0005.lib
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0005.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0005.exp
+    [4/14] UE4Editor-VaRestEditor-0005.lib
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRestEditor\UE4Editor-VaRestEditor-0005.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRestEditor\UE4Editor-VaRestEditor-0005.exp
+    [5/14] UE4Editor-AdvancedSessions-0005.dll
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0005.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSessions\UE4Editor-AdvancedSessions-0005.suppressed.exp
+    [6/14] UE4Editor-AdvancedSteamSessions-0005.dll
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0005.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UE4Editor\Development\AdvancedSteamSessions\UE4Editor-AdvancedSteamSessions-0005.suppressed.exp
+    [7/14] UE4Editor-VaRestEditor-0005.dll
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRestEditor\UE4Editor-VaRestEditor-0005.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRestEditor\UE4Editor-VaRestEditor-0005.suppressed.exp
+    [8/14] UE4Editor-VaRest-0005.dll
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRest\UE4Editor-VaRest-0005.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Development\VaRest\UE4Editor-VaRest-0005.suppressed.exp
+    [9/14] Playtime_Multiplayer.init.gen.cpp
+    [10/14] BackendLast.gen.cpp
+    [11/14] BackendLast.cpp
+    [12/14] UE4Editor-Playtime_Multiplayer-0005.lib
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer-0005.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer-0005.exp
+    [13/14] UE4Editor-Playtime_Multiplayer-0005.dll
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer-0005.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer-0005.suppressed.exp
+    [14/14] Playtime_MultiplayerEditor.target
+  Total time in Parallel executor: 56,29 seconds
+  Total execution time: 130,75 seconds

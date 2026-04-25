@@ -2,8 +2,12 @@ C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4E
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Source\Playtime_Multiplayer/BackendLast.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/BlueprintAsyncActionBase.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintAsyncActionBase.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Source\VaRest\Public\VaRestRequestJSON.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\Http.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Online\HTTP\Public\HttpModule.h
@@ -17,11 +21,7 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\LatentAc
 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Source\VaRest\Public\VaRestTypes.h
 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Inc\VaRest\VaRestTypes.generated.h
 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Inc\VaRest\VaRestRequestJSON.generated.h
-C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Source\VaRest\Public\VaRestSubsystem.h
 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Source\VaRest\Public\VaRestJsonObject.h
 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Source\VaRest\Public\VaRestDefines.h
 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Inc\VaRest\VaRestJsonObject.generated.h
-C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Source\VaRest\Public\VaRestJsonValue.h
-C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Inc\VaRest\VaRestJsonValue.generated.h
-C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Plugins\VaRestPlugin\Intermediate\Build\Win64\UE4Editor\Inc\VaRest\VaRestSubsystem.generated.h
 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Inc\Playtime_Multiplayer\BackendLast.generated.h

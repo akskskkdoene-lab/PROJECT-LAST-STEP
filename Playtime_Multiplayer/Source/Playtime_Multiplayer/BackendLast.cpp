@@ -1,125 +1,70 @@
 #include "BackendLast.h"
+#include "VaRestSubsystem.h"
 #include "Engine/Engine.h"
 
-UBackendLast* UBackendLast::GetPlayerData(UObject* WorldContextObject, FString InSteamID)
+FString UBackendLast::GetBaseURL()
 {
-    UBackendLast* Node = NewObject<UBackendLast>();
-    Node->WorldContextObject = WorldContextObject;
-    Node->SteamID = InSteamID; // Берем ID из параметров
-    Node->RequestType = EBackendLastRequestType::GetPlayerData;
-    Node->RegisterWithGameInstance(WorldContextObject);
-    return Node;
+	// Твой исправленный ID проекта: jdmlqeywkxfvoqqbypry
+	return TEXT("https://jdmlqeywkxfvoqqbypry.supabase.co/rest/v1/rpc/");
 }
 
-UBackendLast* UBackendLast::PurchaseItem(
-    UObject* WorldContextObject,
-    FString InSteamID,
-    FString InCurrencyType,
-    int32 InItemID,
-    FString InItemName,
-    int32 InPrice)
+FString UBackendLast::GetApiKey()
 {
-    UBackendLast* Node = NewObject<UBackendLast>();
-    Node->WorldContextObject = WorldContextObject;
-    Node->SteamID = InSteamID;
-    Node->RequestType = EBackendLastRequestType::PurchaseItem;
-    Node->CurrencyType = InCurrencyType;
-    Node->ItemID = InItemID;
-    Node->ItemName = InItemName;
-    Node->Price = InPrice;
-    Node->RegisterWithGameInstance(WorldContextObject);
-    return Node;
+	// Твой JWT токен
+	return TEXT("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpkbWxxZXl3a3hmdm9xcWJ5cHJ5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcxNDEwNzcsImV4cCI6MjA5MjcxNzA3N30.K-JRqEq08N-_9TwvKigXaUtHXOLHgbTs3US7HSQWdcw");
 }
 
-void UBackendLast::Activate()
+void UBackendLast::SendRequest(FString FunctionName, UVaRestJsonObject* Parameters)
 {
-    if (SteamID.IsEmpty())
-    {
-        OnFailure.Broadcast(nullptr);
-        SetReadyToDestroy();
-        return;
-    }
+	if (!GEngine) return;
 
-    if (RequestType == EBackendLastRequestType::GetPlayerData)
-    {
-        SendGetPlayerData();
-    }
-    else
-    {
-        SendPurchaseItem();
-    }
+	UVaRestSubsystem* VaRestSubsystem = GEngine->GetEngineSubsystem<UVaRestSubsystem>();
+	UVaRestRequestJSON* Request = VaRestSubsystem->ConstructVaRestRequestExt(EVaRestRequestVerb::POST, EVaRestRequestContentType::json);
+
+	if (!Request) return;
+
+	// Привязываем события
+	Request->OnRequestComplete.AddDynamic(this, &UBackendLast::OnWebRequestCompleted);
+	Request->OnRequestFail.AddDynamic(this, &UBackendLast::OnWebRequestFailed);
+
+	// Устанавливаем заголовки
+	FString Key = GetApiKey();
+	Request->SetHeader(TEXT("apikey"), Key);
+	Request->SetHeader(TEXT("Authorization"), FString::Printf(TEXT("Bearer %s"), *Key));
+
+	// Передаем параметры (тело запроса)
+	if (Parameters)
+	{
+		Request->SetRequestObject(Parameters);
+	}
+
+	// Отправляем
+	FString FullURL = GetBaseURL() + FunctionName;
+	Request->ProcessURL(FullURL);
 }
 
-FString UBackendLast::GetSupabaseURL()
+void UBackendLast::OnWebRequestCompleted(UVaRestRequestJSON* Request)
 {
-    return TEXT("https://ybffxjpnvgbbkqnmvodo.supabase.co/rest/v1/rpc/");
+	if (Request && Request->GetResponseObject())
+	{
+		UVaRestJsonObject* Json = Request->GetResponseObject();
+		// Если в ответе от SQL функции есть success: true
+		if (Json->HasField(TEXT("success")) && Json->GetBoolField(TEXT("success")))
+		{
+			OnSuccess.Broadcast(Json, TEXT("Request Successful"));
+		}
+		else
+		{
+			OnFailure.Broadcast(Json, TEXT("Business Logic Error"));
+		}
+	}
+	else
+	{
+		OnFailure.Broadcast(nullptr, TEXT("Empty Response"));
+	}
 }
 
-FString UBackendLast::GetAnonKey()
+void UBackendLast::OnWebRequestFailed(UVaRestRequestJSON* Request)
 {
-    return TEXT("sb_publishable_5CPGGILi5Kf7D9--k_hnQg_QPz33jtu");
-}
-
-void UBackendLast::SendGetPlayerData()
-{
-    if (!GEngine) return;
-    UVaRestSubsystem* Subsystem = GEngine->GetEngineSubsystem<UVaRestSubsystem>();
-    ActiveRequest = Subsystem ? Subsystem->ConstructVaRestRequestExt(EVaRestRequestVerb::POST, EVaRestRequestContentType::json) : nullptr;
-
-    if (!ActiveRequest) { OnFailure.Broadcast(nullptr); SetReadyToDestroy(); return; }
-
-    ActiveRequest->OnRequestComplete.AddDynamic(this, &UBackendLast::HandleRequestComplete);
-    ActiveRequest->OnRequestFail.AddDynamic(this, &UBackendLast::HandleRequestFail);
-    FString AuthValue = FString::Printf(TEXT("Bearer %s"), *GetAnonKey());
-    ActiveRequest->SetHeader(TEXT("apikey"), GetAnonKey());
-    ActiveRequest->SetHeader(TEXT("Authorization"), AuthValue);
-    UVaRestJsonObject* Json = Subsystem->ConstructVaRestJsonObject();
-    Json->SetStringField(TEXT("p_steam_id"), SteamID);
-    ActiveRequest->SetRequestObject(Json);
-    ActiveRequest->ProcessURL(GetSupabaseURL() + TEXT("check_or_create_player"));
-}
-
-void UBackendLast::SendPurchaseItem()
-{
-    if (!GEngine) return;
-    UVaRestSubsystem* Subsystem = GEngine->GetEngineSubsystem<UVaRestSubsystem>();
-    ActiveRequest = Subsystem ? Subsystem->ConstructVaRestRequestExt(EVaRestRequestVerb::POST, EVaRestRequestContentType::json) : nullptr;
-
-    if (!ActiveRequest) { OnFailure.Broadcast(nullptr); SetReadyToDestroy(); return; }
-
-    ActiveRequest->OnRequestComplete.AddDynamic(this, &UBackendLast::HandleRequestComplete);
-    ActiveRequest->OnRequestFail.AddDynamic(this, &UBackendLast::HandleRequestFail);
-    ActiveRequest->SetHeader(TEXT("apikey"), GetAnonKey());
-    ActiveRequest->SetHeader(TEXT("Authorization"), FString(TEXT("Bearer ")) + GetAnonKey());
-
-    UVaRestJsonObject* Json = Subsystem->ConstructVaRestJsonObject();
-    Json->SetStringField(TEXT("p_steam_id"), SteamID);
-    Json->SetStringField(TEXT("p_currency_type"), CurrencyType);
-    Json->SetBoolField(TEXT("p_is_bundle"), false);
-    Json->SetNumberField(TEXT("p_item_id"), ItemID);
-    Json->SetStringField(TEXT("p_item_name"), ItemName);
-    Json->SetNumberField(TEXT("p_price"), Price);
-    Json->SetArrayField(TEXT("p_new_items"), TArray<UVaRestJsonValue*>());
-
-    ActiveRequest->SetRequestObject(Json);
-    ActiveRequest->ProcessURL(GetSupabaseURL() + TEXT("verify_and_purchase"));
-}
-
-void UBackendLast::HandleRequestComplete(UVaRestRequestJSON* Request)
-{
-    if (Request && Request->GetResponseObject())
-    {
-        UVaRestJsonObject* Response = Request->GetResponseObject();
-        if (Response->HasField(TEXT("success")) && Response->GetBoolField(TEXT("success")))
-            OnSuccess.Broadcast(Response);
-        else OnFailure.Broadcast(Response);
-    }
-    else OnFailure.Broadcast(nullptr);
-    SetReadyToDestroy();
-}
-
-void UBackendLast::HandleRequestFail(UVaRestRequestJSON* Request)
-{
-    OnFailure.Broadcast(Request ? Request->GetResponseObject() : nullptr);
-    SetReadyToDestroy();
+	OnFailure.Broadcast(nullptr, TEXT("Network or API Key Error"));
 }
