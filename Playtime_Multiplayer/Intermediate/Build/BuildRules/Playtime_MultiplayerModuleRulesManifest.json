@@ -1,6 +1,10 @@
 {
 	"SourceFiles": [
 		"C:\\LastStep\\PROJECT-LAST-STEP\\Playtime_Multiplayer\\Source\\Playtime_Multiplayer\\Playtime_Multiplayer.Build.cs",
+		"C:\\LastStep\\PROJECT-LAST-STEP\\Playtime_Multiplayer\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"C:\\LastStep\\PROJECT-LAST-STEP\\Playtime_Multiplayer\\Plugins\\AdvancedSteamSessions\\Source\\AdvancedSteamSessions\\AdvancedSteamSessions.Build.cs",
+		"C:\\LastStep\\PROJECT-LAST-STEP\\Playtime_Multiplayer\\Plugins\\VaRestPlugin\\Source\\VaRest\\VaRest.Build.cs",
+		"C:\\LastStep\\PROJECT-LAST-STEP\\Playtime_Multiplayer\\Plugins\\VaRestPlugin\\Source\\VaRestEditor\\VaRestEditor.Build.cs",
 		"C:\\LastStep\\PROJECT-LAST-STEP\\Playtime_Multiplayer\\Source\\Playtime_Multiplayer.Target.cs",
 		"C:\\LastStep\\PROJECT-LAST-STEP\\Playtime_Multiplayer\\Source\\Playtime_MultiplayerEditor.Target.cs"
 	],

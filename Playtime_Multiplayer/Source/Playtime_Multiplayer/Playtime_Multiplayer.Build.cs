@@ -7,8 +7,20 @@ public class Playtime_Multiplayer : ModuleRules
 	public Playtime_Multiplayer(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+
+		PublicDependencyModuleNames.AddRange(new string[] {
+	    "Core",
+	    "CoreUObject",
+	    "Engine",
+	    "InputCore",
+	    "VaRest", // Добавь это
+        "AdvancedSessions",
+	    "AdvancedSteamSessions",
+	    "OnlineSubsystem",
+	    "OnlineSubsystemSteam",
+		"HTTP",
+	    "Json"
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
