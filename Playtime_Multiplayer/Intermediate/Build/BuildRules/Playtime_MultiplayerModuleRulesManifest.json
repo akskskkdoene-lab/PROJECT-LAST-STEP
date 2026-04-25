@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\User\\Documents\\Unreal Projects\\Playtime_Multiplayer\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"C:\\Users\\User\\Documents\\Unreal Projects\\Playtime_Multiplayer\\Intermediate\\Source\\Playtime_Multiplayer.Build.cs",
+		"C:\\Users\\User\\Documents\\Unreal Projects\\Playtime_Multiplayer\\Intermediate\\Source\\Playtime_Multiplayer.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
