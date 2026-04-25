@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Playtime_Multiplayer.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\Playtime_MultiplayerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\BackendLast.cpp.obj"
+"C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\Playtime_Multiplayer.cpp.obj"
+"C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\BackendLast.gen.cpp.obj"
+"C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\Playtime_Multiplayer.init.gen.cpp.obj"
+"C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\Default.rc2.res"
+/OUT:"C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer.lib"

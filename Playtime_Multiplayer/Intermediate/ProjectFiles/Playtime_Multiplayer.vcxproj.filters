@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Playtime_Multiplayer.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EA7E9EA9-2F61-4CFF-A118-3B8C0F81FD71}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Playtime_Multiplayer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Playtime_MultiplayerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{87F5E7B9-F502-404A-98EE-7B0492AF23F1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Playtime_Multiplayer">
+      <UniqueIdentifier>{78D1860C-AC11-4CDD-95E4-C1580C28AD9D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\BackendLast.cpp">
+      <Filter>Source\Playtime_Multiplayer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\BackendLast.h">
+      <Filter>Source\Playtime_Multiplayer</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Playtime_Multiplayer\Playtime_Multiplayer.Build.cs">
+      <Filter>Source\Playtime_Multiplayer</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\Playtime_Multiplayer.cpp">
+      <Filter>Source\Playtime_Multiplayer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\Playtime_Multiplayer.h">
+      <Filter>Source\Playtime_Multiplayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿  Cleaning Playtime_MultiplayerEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (C:\LastStep\PROJECT-LAST-STEP).
+  Creating makefile for Playtime_MultiplayerEditor (no existing makefile)
+  Parsing headers for Playtime_MultiplayerEditor
+    Running UnrealHeaderTool "C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Playtime_Multiplayer.uproject" "C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\Playtime_MultiplayerEditor\Development\Playtime_MultiplayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Xdox2\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for Playtime_MultiplayerEditor in 57,9268907 seconds
+  Building Playtime_MultiplayerEditor...
+  Using Visual Studio 2019 14.29.30159 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.26100.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 9 actions with 4 processes...
+    [1/9] Default.rc2
+    [2/9] SharedPCH.Engine.ShadowErrors.cpp
+    [3/9] Playtime_Multiplayer.cpp
+    [4/9] BackendLast.cpp
+    [5/9] Playtime_Multiplayer.init.gen.cpp
+    [6/9] BackendLast.gen.cpp
+    [7/9] UE4Editor-Playtime_Multiplayer.lib
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer.exp
+    [8/9] UE4Editor-Playtime_Multiplayer.dll
+       Создается библиотека C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer.suppressed.lib и объект C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\UE4Editor-Playtime_Multiplayer.suppressed.exp
+    [9/9] Playtime_MultiplayerEditor.target
+  Total time in Parallel executor: 150,55 seconds
+  Total execution time: 308,45 seconds
