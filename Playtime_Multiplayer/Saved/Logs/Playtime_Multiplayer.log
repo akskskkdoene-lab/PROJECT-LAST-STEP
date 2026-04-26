@@ -1227,3 +1227,239 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2026.04.26-09.16.42:942][394]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
 [2026.04.26-09.16.42:948][394]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
 [2026.04.26-09.16.56:512][394]LogSlate: Window 'Pick Data Asset Class' being destroyed
+[2026.04.26-09.24.53:636][267]LogHotReload: New module detected: UE4Editor-Playtime_Multiplayer-0012.dll
+[2026.04.26-09.24.56:645][327]LogHotReload: Starting Hot-Reload from IDE
+[2026.04.26-09.24.58:615][327]LogClass: EAttachmentStateChange HotReload.
+[2026.04.26-09.24.58:615][327]LogClass: EAttackType HotReload.
+[2026.04.26-09.24.58:615][327]LogClass: EBoxySoundSet HotReload.
+[2026.04.26-09.24.58:616][327]LogClass: EBoxyStatistics HotReload.
+[2026.04.26-09.24.58:616][327]LogClass: ECharacterType HotReload.
+[2026.04.26-09.24.58:616][327]LogClass: ECosmeticFilter HotReload.
+[2026.04.26-09.24.58:616][327]LogClass: ECosmeticOutfitSkinType HotReload.
+[2026.04.26-09.24.58:616][327]LogClass: ECosmeticRarity HotReload.
+[2026.04.26-09.24.58:616][327]LogClass: ECosmeticTypeEnum HotReload.
+[2026.04.26-09.24.58:616][327]LogClass: ECustomMovementMode HotReload.
+[2026.04.26-09.24.58:616][327]LogClass: EDoorState HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EFearState HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EFistState HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EGeneralStatistics HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EGrabbableParameter HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EHandState HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EHandStateChange HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EHostMigrationType HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EHuggyMovementMode HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EHuggySoundSet HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EHuggyStatistics HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EInteractedWithState HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EItemType HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: ELimb HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EMantleState HotReload.
+[2026.04.26-09.24.58:617][327]LogClass: EMatchResult HotReload.
+[2026.04.26-09.24.58:618][327]LogClass: EMatchResultState HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EMatchState HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EMazeComponentType HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EMommyGrappleState HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EMommyMovementMode HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EMommySoundSet HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EMommyStatistics HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EMonsterSecondaryObjectives HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EMonsterStatistics HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EMusicTag HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EParkourType HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EPerkType HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EPlayerStatistics HotReload.
+[2026.04.26-09.24.58:619][327]LogClass: EProgressMilestone HotReload.
+[2026.04.26-09.24.58:620][327]LogClass: EPuzzleState HotReload.
+[2026.04.26-09.24.58:620][327]LogClass: EPuzzleType HotReload.
+[2026.04.26-09.24.58:620][327]LogClass: ERandomStatistics HotReload.
+[2026.04.26-09.24.58:620][327]LogClass: ERewardableActions HotReload.
+[2026.04.26-09.24.58:620][327]LogClass: ERotatorAxis HotReload.
+[2026.04.26-09.24.58:620][327]LogClass: ESabotageType HotReload.
+[2026.04.26-09.24.58:620][327]LogClass: ESecondaryObjectives HotReload.
+[2026.04.26-09.24.58:620][327]LogClass: ESoundPackType HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: EStatisticCategory HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: EToyStatus HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: EToyType HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: ETransition HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: EUIMode HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: BoxySoundSet HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: Bundle HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: Cosmetic HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: InventoryResponseItem HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: Item HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: ItemDefinition HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: LevelResponse HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: LevelStruct HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: LoadingScreen HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: MatchData HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: MatchPointsCriterionDef HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: MatchResultStat HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: MommySoundSet HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: Perk HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: PerkPackage HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: PerkResponseItem HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: PlayerData HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: PlaytimeEvent HotReload.
+[2026.04.26-09.24.58:621][327]LogClass: PresetSlot HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: QueueData HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: RewardableAction HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: SabotageDef HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: SaleResponseItem HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: SessionData HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: ShopItem HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: ShoppyFeaturedItemResponse HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: ShoppyItemResponse HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: ShoppyItemResponseSet HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: ShoppySaleResponse HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: SoundPackEntry HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: TicketReward HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: TicketRewardableAction HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: ToyBoxResponse HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: ToyBoxResponseItem HotReload.
+[2026.04.26-09.24.58:622][327]LogClass: ToyData HotReload.
+[2026.04.26-09.24.58:665][327]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Playtime_Multiplayer' in 0.0124 seconds. Added 14 classes and 2 folders.
+[2026.04.26-09.24.58:772][327]LogPython: Warning: 'EBoxySoundSet' and 'BoxySoundSet' have the same name (BoxySoundSet) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+[2026.04.26-09.24.58:786][327]LogPython: Warning: 'EMommySoundSet' and 'MommySoundSet' have the same name (MommySoundSet) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+[2026.04.26-09.24.58:812][327]Display: HotReload successful (14 functions remapped  35 scriptstructs remapped)
+[2026.04.26-09.24.59:627][327]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0298 seconds. Added 3871 classes and 945 folders.
+[2026.04.26-09.24.59:661][327]Display: HotReload took  3.0s.
+[2026.04.26-09.26.52:723][736]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2026.04.26-09.26.52:724][736]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2026.04.26-09.32.53:745][318]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2026.04.26-09.32.53:756][318]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2026.04.26-09.33.32:237][954]LogHotReload: New module detected: UE4Editor-Playtime_Multiplayer-0013.dll
+[2026.04.26-09.33.37:907][ 51]LogHotReload: Starting Hot-Reload from IDE
+[2026.04.26-09.33.38:851][ 51]LogClass: EAttachmentStateChange HotReload.
+[2026.04.26-09.33.38:851][ 51]LogClass: EAttackType HotReload.
+[2026.04.26-09.33.38:851][ 51]LogClass: EBoxySoundSet HotReload.
+[2026.04.26-09.33.38:851][ 51]LogClass: EBoxyStatistics HotReload.
+[2026.04.26-09.33.38:851][ 51]LogClass: ECharacterType HotReload.
+[2026.04.26-09.33.38:851][ 51]LogClass: ECosmeticFilter HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: ECosmeticOutfitSkinType HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: ECosmeticRarity HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: ECosmeticTypeEnum HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: ECustomMovementMode HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EDoorState HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EFearState HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EFistState HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EGeneralStatistics HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EGrabbableParameter HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EHandState HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EHandStateChange HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EHostMigrationType HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EHuggyMovementMode HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EHuggySoundSet HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EHuggyStatistics HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EInteractedWithState HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EItemType HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: ELimb HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EMantleState HotReload.
+[2026.04.26-09.33.38:852][ 51]LogClass: EMatchResult HotReload.
+[2026.04.26-09.33.38:853][ 51]LogClass: EMatchResultState HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EMatchState HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EMazeComponentType HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EMommyGrappleState HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EMommyMovementMode HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EMommySoundSet HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EMommyStatistics HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EMonsterSecondaryObjectives HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EMonsterStatistics HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EMusicTag HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EParkourType HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EPerkType HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EPlayerStatistics HotReload.
+[2026.04.26-09.33.38:854][ 51]LogClass: EProgressMilestone HotReload.
+[2026.04.26-09.33.38:855][ 51]LogClass: EPuzzleState HotReload.
+[2026.04.26-09.33.38:855][ 51]LogClass: EPuzzleType HotReload.
+[2026.04.26-09.33.38:855][ 51]LogClass: ERandomStatistics HotReload.
+[2026.04.26-09.33.38:855][ 51]LogClass: ERewardableActions HotReload.
+[2026.04.26-09.33.38:855][ 51]LogClass: ERotatorAxis HotReload.
+[2026.04.26-09.33.38:855][ 51]LogClass: ESabotageType HotReload.
+[2026.04.26-09.33.38:855][ 51]LogClass: ESecondaryObjectives HotReload.
+[2026.04.26-09.33.38:855][ 51]LogClass: ESoundPackType HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: EStatisticCategory HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: EToyStatus HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: EToyType HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: ETransition HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: EUIMode HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: BoxySoundSet HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: Bundle HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: Cosmetic HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: InventoryResponseItem HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: Item HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: ItemDefinition HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: LevelResponse HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: LevelStruct HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: LoadingScreen HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: MatchData HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: MatchPointsCriterionDef HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: MatchResultStat HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: MommySoundSet HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: Perk HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: PerkPackage HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: PerkResponseItem HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: PlayerData HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: PlaytimeEvent HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: PresetSlot HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: QueueData HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: RewardableAction HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: SabotageDef HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: SaleResponseItem HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: SessionData HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: ShopItem HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: ShoppyFeaturedItemResponse HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: ShoppyItemResponse HotReload.
+[2026.04.26-09.33.38:856][ 51]LogClass: ShoppyItemResponseSet HotReload.
+[2026.04.26-09.33.38:857][ 51]LogClass: ShoppySaleResponse HotReload.
+[2026.04.26-09.33.38:857][ 51]LogClass: SoundPackEntry HotReload.
+[2026.04.26-09.33.38:857][ 51]LogClass: TicketReward HotReload.
+[2026.04.26-09.33.38:857][ 51]LogClass: TicketRewardableAction HotReload.
+[2026.04.26-09.33.38:857][ 51]LogClass: ToyBoxResponse HotReload.
+[2026.04.26-09.33.38:857][ 51]LogClass: ToyBoxResponseItem HotReload.
+[2026.04.26-09.33.38:857][ 51]LogClass: ToyData HotReload.
+[2026.04.26-09.33.38:901][ 51]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Playtime_Multiplayer' in 0.0122 seconds. Added 14 classes and 2 folders.
+[2026.04.26-09.33.39:015][ 51]LogPython: Warning: 'EBoxySoundSet' and 'BoxySoundSet' have the same name (BoxySoundSet) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+[2026.04.26-09.33.39:030][ 51]LogPython: Warning: 'EMommySoundSet' and 'MommySoundSet' have the same name (MommySoundSet) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+[2026.04.26-09.33.39:058][ 51]Display: HotReload successful (14 functions remapped  35 scriptstructs remapped)
+[2026.04.26-09.33.39:805][ 51]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0424 seconds. Added 3871 classes and 945 folders.
+[2026.04.26-09.33.39:840][ 51]Display: HotReload took  1.9s.
+[2026.04.26-09.33.56:546][531]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2026.04.26-09.33.57:197][531]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	Run1_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Run1_C_0
+	Function /Game/FirstPerson/FirstPersonBP/Run1.Run1_C:ExecuteUbergraph_Run1:0040
+[2026.04.26-09.33.57:365][531]LogSkinnedMeshComp: Warning: GetSocketByName(torso_JNT): No SkeletalMesh for Component(CharacterMesh0) Actor(FirstPersonCharacter_C_0)
+[2026.04.26-09.33.57:365][531]LogSkinnedMeshComp: Warning: GetSocketByName(torso_JNT): No SkeletalMesh for Component(CharacterMesh0) Actor(FirstPersonCharacter_C_0)
+[2026.04.26-09.33.57:367][531]LogSkinnedMeshComp: Warning: GetSocketByName(torso_JNT): No SkeletalMesh for Component(CharacterMesh0) Actor(FirstPersonCharacter_C_0)
+[2026.04.26-09.34.00:890][531]LogSlate: Window 'Delete Assets' being destroyed
+[2026.04.26-09.34.01:001][531]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/World/Character/Player/PlayerCharacter.PlayerCharacter
+	Asset Name: /Game/World/Character/Player/PlayerCharacter_PhysicsAsset.PlayerCharacter_PhysicsAsset
+	Asset Name: /Game/World/Character/Player/PlayerCharacter_Skeleton.PlayerCharacter_Skeleton
+[2026.04.26-09.34.04:916][531]LogSkinnedMeshComp: Warning: GetSocketByName(torso_JNT): No SkeletalMesh for Component(CharacterMesh0) Actor(FirstPersonCharacter_C_0)
+[2026.04.26-09.34.04:973][531]LogSkinnedMeshComp: Warning: GetSocketByName(torso_JNT): No SkeletalMesh for Component(CharacterMesh0) Actor(FirstPersonCharacter_C_0)
+[2026.04.26-09.34.04:973][531]LogSkinnedMeshComp: Warning: GetSocketByName(torso_JNT): No SkeletalMesh for Component(CharacterMesh0) Actor(FirstPersonCharacter_C_0)
+[2026.04.26-09.34.06:235][531]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2026.04.26-09.34.07:916][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2026.04.26-09.34.07:985][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.04.26-09.34.08:001][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.04.26-09.34.08:023][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2026.04.26-09.34.08:039][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.04.26-09.34.11:339][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2026.04.26-09.34.11:345][600]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/Main_Menu' took 0.031
+[2026.04.26-09.34.11:358][600]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/FirstPersonBP/Blueprints/FirstPersonCharacter] ([2] browsable assets)...
+[2026.04.26-09.34.11:359][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2026.04.26-09.34.11:595][600]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/FirstPersonCharacter_Auto2EAD37C3B493534C0F4F0EB81B1BB002F.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Autosaves/Game/FirstPerson/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2026.04.26-09.34.11:615][600]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/FirstPersonBP/Run1] ([2] browsable assets)...
+[2026.04.26-09.34.11:624][600]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/FirstPerson/FirstPersonBP/Run1.Run1]
+[2026.04.26-09.34.11:624][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/FirstPersonBP/Run1]
+[2026.04.26-09.34.11:682][600]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Run1_Auto23AABD9264BDDE7580EEAA8AB9679EA3B.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Autosaves/Game/FirstPerson/FirstPersonBP/Run1_Auto2.uasset'
+[2026.04.26-09.34.11:685][600]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/FirstPersonBP/run] ([1] browsable assets)...
+[2026.04.26-09.34.11:691][600]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/FirstPerson/FirstPersonBP/run.run]
+[2026.04.26-09.34.11:691][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/FirstPersonBP/run]
+[2026.04.26-09.34.11:700][600]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/run_Auto2146E208A4B0875622499A281B99AE60E.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Autosaves/Game/FirstPerson/FirstPersonBP/run_Auto2.uasset'
+[2026.04.26-09.34.11:702][600]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/FirstPersonBP/Running] ([1] browsable assets)...
+[2026.04.26-09.34.11:707][600]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/FirstPerson/FirstPersonBP/Running.Running]
+[2026.04.26-09.34.11:708][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/FirstPersonBP/Running]
+[2026.04.26-09.34.11:719][600]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Running_Auto2A648DD444D874DE7D9DC429D6D7FED22.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Autosaves/Game/FirstPerson/FirstPersonBP/Running_Auto2.uasset'
+[2026.04.26-09.34.11:722][600]LogFileHelpers: Auto-saving content packages took 0.375
+[2026.04.26-09.35.05:760][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms

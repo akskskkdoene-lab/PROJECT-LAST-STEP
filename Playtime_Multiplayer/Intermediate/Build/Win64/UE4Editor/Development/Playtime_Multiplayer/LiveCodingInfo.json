@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Playtime_Multiplayer.cpp.obj": [
-			"Playtime_Multiplayer.cpp.obj",
 			"ActionAsset.cpp.obj",
 			"AmbiencePack.cpp.obj",
 			"BoxySoundSet.cpp.obj",
@@ -30,6 +29,7 @@
 			"PerkPackage.cpp.obj",
 			"PerkResponseItem.cpp.obj",
 			"PlayerData.cpp.obj",
+			"Playtime_Multiplayer.cpp.obj",
 			"PlaytimeEvent.cpp.obj",
 			"PresetSlot.cpp.obj",
 			"PuzzleSoundPack.cpp.obj",
