@@ -1030,3 +1030,179 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2026.04.26-10.41.59:272][371]LogContentValidation: Display: Validating FileMediaSource /Game/Movies/UI_Memory_connection_monitor.UI_Memory_connection_monitor
 [2026.04.26-10.41.59:272][371]LogContentValidation: Display: Validating FileMediaSource /Game/Movies/UI_DoctorBootup.UI_DoctorBootup
 [2026.04.26-10.41.59:272][371]LogContentValidation: Display: Validating FileMediaSource /Game/Movies/UI_TitleScreen.UI_TitleScreen
+[2026.04.26-10.43.00:397][361]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Items/ALLItems.ALLItems
+[2026.04.26-10.43.37:860][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/ALLItems" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/ALLItems.uasset" SILENT=true
+[2026.04.26-10.43.37:866][546]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/ALLItemsC693B2CC47A75541B701EAB327524FF9.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/ALLItems.uasset'
+[2026.04.26-10.43.37:898][546]AssetCheck: New page: Asset Save: ALLItems
+[2026.04.26-10.43.37:898][546]LogContentValidation: Display: Validating DataTable /Game/Items/ALLItems.ALLItems
+[2026.04.26-10.43.43:903][759]LogSlate: Window 'ALLItems' being destroyed
+[2026.04.26-10.43.46:617][898]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.26-10.43.46:634][898]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.26-10.43.56:646][357]LogContentBrowser: Attempting asset rename: NewFolder -> Thumbnail
+[2026.04.26-10.43.56:648][357]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.26-10.44.23:461][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.04.26-10.44.23:463][123]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_0' took 0.021
+[2026.04.26-10.44.23:465][123]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Items/ALLItems] ([1] browsable assets)...
+[2026.04.26-10.44.23:465][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/ALLItems]
+[2026.04.26-10.44.23:465][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/ALLItems" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Autosaves/Game/Items/ALLItems_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2026.04.26-10.44.23:467][123]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/ALLItems_Auto111CF1DDC409827A1D34B6094A5E7911C.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Autosaves/Game/Items/ALLItems_Auto1.uasset'
+[2026.04.26-10.44.23:472][123]LogFileHelpers: Auto-saving content packages took 0.007
+[2026.04.26-10.44.37:517][611]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.44.37:527][611]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.44.37:545][611]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.44.43:716][845]LogContentBrowser: Attempting asset rename: NewDataTable -> BN_Items
+[2026.04.26-10.44.43:717][845]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.44.45:187][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.04.26-10.44.46:251][900]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.44.46:300][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/ALLItems" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/ALLItems.uasset" SILENT=true
+[2026.04.26-10.44.46:302][900]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/ALLItems3A7DD7354D3167CFFA167083CDDBDB69.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/ALLItems.uasset'
+[2026.04.26-10.44.46:305][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BN_Items" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/BN_Items.uasset" SILENT=true
+[2026.04.26-10.44.46:308][900]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/BN_Items02503ED845AEC75081A481B85572CAF9.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/BN_Items.uasset'
+[2026.04.26-10.44.46:334][900]AssetCheck: New page: Asset Save: multiple assets
+[2026.04.26-10.44.46:334][900]LogContentValidation: Display: Validating DataTable /Game/Items/BN_Items.BN_Items
+[2026.04.26-10.44.46:334][900]LogContentValidation: Display: Validating DataTable /Game/Items/ALLItems.ALLItems
+[2026.04.26-10.44.47:105][927]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Items/BN_Items.BN_Items
+[2026.04.26-10.45.00:642][372]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.45.00:652][372]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.45.00:664][372]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.45.10:285][776]LogContentBrowser: Attempting asset rename: NewDataTable -> SP_Boxy
+[2026.04.26-10.45.10:288][776]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.45.11:801][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.04.26-10.45.12:696][833]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.45.12:748][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/SP_Boxy" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/SP_Boxy.uasset" SILENT=true
+[2026.04.26-10.45.12:750][833]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/SP_BoxyBB65FE7D4085B37D4CDCB59F3DBE013F.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/SP_Boxy.uasset'
+[2026.04.26-10.45.12:779][833]AssetCheck: New page: Asset Save: SP_Boxy
+[2026.04.26-10.45.12:779][833]LogContentValidation: Display: Validating DataTable /Game/Items/SP_Boxy.SP_Boxy
+[2026.04.26-10.45.29:898][392]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.45.29:910][392]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.45.29:925][392]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.45.33:691][536]LogContentBrowser: Attempting asset rename: NewDataTable -> SP_Mommy
+[2026.04.26-10.45.33:694][536]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.45.35:232][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.04.26-10.45.36:223][595]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.45.36:276][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/SP_Mommy" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/SP_Mommy.uasset" SILENT=true
+[2026.04.26-10.45.36:279][595]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/SP_Mommy7684C3734DC8A437712D5F902B9E9ADF.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/SP_Mommy.uasset'
+[2026.04.26-10.45.36:302][595]AssetCheck: New page: Asset Save: SP_Mommy
+[2026.04.26-10.45.36:302][595]LogContentValidation: Display: Validating DataTable /Game/Items/SP_Mommy.SP_Mommy
+[2026.04.26-10.46.09:476][813]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.46.09:487][813]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.46.09:500][813]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.46.10:414][849]LogContentBrowser: Attempting asset rename: NewDataTable -> NewDataTable
+[2026.04.26-10.46.10:415][849]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.46.13:310][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.04.26-10.46.14:648][966]LogSlate: Window 'Delete Assets' being destroyed
+[2026.04.26-10.46.14:755][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.04.26-10.46.27:855][686]LogContentBrowser: Deferred new asset file creation: NewFunctionLibrary
+[2026.04.26-10.46.27:874][686]LogContentBrowser: Creating deferred item: NewFunctionLibrary
+[2026.04.26-10.46.37:783][138]LogContentBrowser: Attempting asset rename: NewFunctionLibrary -> CosmeticsFunctions
+[2026.04.26-10.46.37:870][138]LogContentBrowser: End creating deferred item NewFunctionLibrary
+[2026.04.26-10.46.39:110][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.04.26-10.46.39:947][194]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.46.39:997][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-10.46.40:011][194]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctionsB0CA7A09469492EA11B086AB759FB09B.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-10.46.40:032][194]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-10.46.40:032][194]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-10.46.40:815][224]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-10.46.41:373][224]LogBlueprintEditor: Perf: 0.3 total seconds to load all 6 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2026.04.26-10.46.41:373][224]LogBlueprintEditor: Perf: 0.2 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary
+[2026.04.26-10.46.41:610][224]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0074 seconds. Added 126 classes and 0 folders.
+[2026.04.26-10.46.42:934][224]LogSlate: Took 0.001327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.04.26-10.47.13:780][  6]LogSlate: Took 0.013777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.04.26-10.48.11:124][380]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-10.48.11:190][380]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2026.04.26-10.48.11:249][380]LogSlate: Took 0.001180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.04.26-10.48.22:293][ 28]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-10.48.22:329][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2026.04.26-10.49.24:240][720]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2026.04.26-10.49.24:240][720]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2026.04.26-10.49.24:660][745]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2026.04.26-10.49.24:660][745]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2026.04.26-10.50.11:159][513]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-10.50.11:199][513]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2026.04.26-10.50.12:102][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-10.50.12:116][563]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctionsAEA6E6334709A1C9C80D50B3E3D4A414.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-10.50.12:138][563]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-10.50.12:139][563]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-10.52.11:426][374]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-10.52.11:469][374]LogUObjectHash: Compacting FUObjectHashTables data took   6.38ms
+[2026.04.26-10.54.52:729][716]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2026.04.26-10.54.52:732][716]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_0' took 0.060
+[2026.04.26-10.54.52:733][716]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Items/CosmeticsFunctions] ([2] browsable assets)...
+[2026.04.26-10.54.52:733][716]OBJ SavePackage: Finished generating thumbnails for package [/Game/Items/CosmeticsFunctions]
+[2026.04.26-10.54.52:785][716]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctions_Auto24C7AF7FB486943228E72E485A077458D.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Autosaves/Game/Items/CosmeticsFunctions_Auto2.uasset'
+[2026.04.26-10.54.52:789][716]LogFileHelpers: Auto-saving content packages took 0.056
+[2026.04.26-11.01.55:054][290]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.01.55:130][290]LogUObjectHash: Compacting FUObjectHashTables data took   7.00ms
+[2026.04.26-11.01.55:788][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-11.01.55:829][320]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctions28793FB545298EA0A97FF981D0BF2DCA.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-11.01.55:867][320]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-11.01.55:867][320]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-11.08.48:037][426]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.08.48:098][426]LogUObjectHash: Compacting FUObjectHashTables data took   5.88ms
+[2026.04.26-11.08.48:934][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-11.08.49:027][470]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctions7A8FEC47475C01BC7F4E1DA3E06DBA41.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-11.08.49:063][470]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-11.08.49:063][470]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-11.09.35:041][285]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2026.04.26-11.09.36:003][285]LogSlate: Window 'Delete Assets' being destroyed
+[2026.04.26-11.09.36:085][285]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Items/BN_Items.BN_Items
+[2026.04.26-11.09.38:825][285]LogUObjectHash: Compacting FUObjectHashTables data took   7.38ms
+[2026.04.26-11.09.38:925][285]LogUObjectHash: Compacting FUObjectHashTables data took   6.31ms
+[2026.04.26-11.09.39:007][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.04.26-11.09.45:683][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.04.26-11.09.46:777][575]LogSlate: Window 'Delete Assets' being destroyed
+[2026.04.26-11.09.47:123][575]LogUObjectHash: Compacting FUObjectHashTables data took   6.94ms
+[2026.04.26-11.09.47:261][575]LogUObjectHash: Compacting FUObjectHashTables data took   7.17ms
+[2026.04.26-11.09.47:343][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2026.04.26-11.10.27:056][724]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.10.27:109][724]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2026.04.26-11.10.28:499][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-11.10.28:576][797]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctionsA6606059458438CBCE1EEB864B678B5A.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-11.10.28:603][797]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-11.10.28:603][797]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-11.10.38:854][365]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.10.38:903][365]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2026.04.26-11.12.06:983][317]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.12.07:088][317]LogUObjectHash: Compacting FUObjectHashTables data took   6.60ms
+[2026.04.26-11.12.08:571][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-11.12.08:632][396]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctions0B1E7C414A2B742869881C96EC4869D3.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-11.12.08:685][396]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-11.12.08:685][396]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-11.12.16:459][828]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.12.16:510][828]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2026.04.26-11.12.17:205][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-11.12.17:282][861]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctions3575E2FC4D3254FB8D89B1B9C04F6A96.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-11.12.17:308][861]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-11.12.17:308][861]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-11.13.06:884][711]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.13.06:948][711]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2026.04.26-11.14.17:607][737]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.14.17:655][737]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2026.04.26-11.14.18:383][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-11.14.18:451][776]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctions823E543542388F94B33D83B0E90856FB.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-11.14.18:480][776]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-11.14.18:480][776]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-11.14.59:386][ 75]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.14.59:441][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2026.04.26-11.15.01:928][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-11.15.01:996][219]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctionsA7E87E7847C01A6B510F98BD0E290B78.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-11.15.02:030][219]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-11.15.02:030][219]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-11.15.08:517][590]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.15.08:568][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2026.04.26-11.15.09:160][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-11.15.09:228][620]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctions0FDCBD464B3B9D4D547080AD9E19F068.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-11.15.09:262][620]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-11.15.09:262][620]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-11.15.13:767][877]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.15.13:821][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2026.04.26-11.16.41:438][ 60]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.16.41:495][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2026.04.26-11.16.41:647][ 67]BlueprintLog: New page: Compile CosmeticsFunctions
+[2026.04.26-11.16.41:701][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2026.04.26-11.16.42:399][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/CosmeticsFunctions" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset" SILENT=true
+[2026.04.26-11.16.42:472][106]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/CosmeticsFunctions3CA78B0E493EF77565DBAFB0D7983B49.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/CosmeticsFunctions.uasset'
+[2026.04.26-11.16.42:495][106]AssetCheck: New page: Asset Save: CosmeticsFunctions
+[2026.04.26-11.16.42:495][106]LogContentValidation: Display: Validating Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-11.16.48:689][444]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
