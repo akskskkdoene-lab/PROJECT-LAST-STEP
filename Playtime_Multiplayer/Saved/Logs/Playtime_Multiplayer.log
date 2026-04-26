@@ -878,3 +878,155 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2026.04.26-10.34.12:474][530]AssetCheck: New page: Asset Save: GP_PotOGold
 [2026.04.26-10.34.12:474][530]LogContentValidation: Display: Validating CosmeticAsset /Game/Items/Cosmetics/GP_PotOGold.GP_PotOGold
 [2026.04.26-10.34.13:302][565]LogAssetEditorSubsystem: Opening Asset editor for CosmeticAsset /Game/Items/Cosmetics/GP_PotOGold.GP_PotOGold
+[2026.04.26-10.34.41:449][294]LogSlate: Window 'GP_PotOGold' being destroyed
+[2026.04.26-10.34.41:459][295]LogRenderer: Reallocating scene render targets to support 1740x696 Format 10 NumSamples 1 (Frame:3275).
+[2026.04.26-10.34.47:278][565]LogContentBrowser: Deferred new asset file creation: GP_PotOGold1
+[2026.04.26-10.34.47:304][565]LogContentBrowser: Creating deferred item: GP_PotOGold1
+[2026.04.26-10.34.58:788][ 84]LogContentBrowser: Attempting asset rename: GP_PotOGold1 -> HT_PJ
+[2026.04.26-10.34.58:789][ 84]LogContentBrowser: End creating deferred item GP_PotOGold1
+[2026.04.26-10.35.00:312][135]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2026.04.26-10.35.01:307][135]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.35.01:349][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Cosmetics/HT_PJ" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/HT_PJ.uasset" SILENT=true
+[2026.04.26-10.35.01:351][135]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/HT_PJ05FF4B474BDE02D9030209BD15D47B06.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/HT_PJ.uasset'
+[2026.04.26-10.35.01:375][135]AssetCheck: New page: Asset Save: HT_PJ
+[2026.04.26-10.35.01:376][135]LogContentValidation: Display: Validating CosmeticAsset /Game/Items/Cosmetics/HT_PJ.HT_PJ
+[2026.04.26-10.35.02:549][182]LogAssetEditorSubsystem: Opening Asset editor for CosmeticAsset /Game/Items/Cosmetics/HT_PJ.HT_PJ
+[2026.04.26-10.35.14:179][716]LogSlate: Window 'HT_PJ' being destroyed
+[2026.04.26-10.35.15:339][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.04.26-10.35.16:752][759]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.35.16:792][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Cosmetics/HT_PJ" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/HT_PJ.uasset" SILENT=true
+[2026.04.26-10.35.16:794][759]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/HT_PJ42A2D9E54EFDFFF4A6946CA141BE18F0.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/HT_PJ.uasset'
+[2026.04.26-10.35.16:816][759]AssetCheck: New page: Asset Save: HT_PJ
+[2026.04.26-10.35.16:816][759]LogContentValidation: Display: Validating CosmeticAsset /Game/Items/Cosmetics/HT_PJ.HT_PJ
+[2026.04.26-10.35.19:774][906]LogContentBrowser: Deferred new asset file creation: HT_PJ1
+[2026.04.26-10.35.19:790][906]LogContentBrowser: Creating deferred item: HT_PJ1
+[2026.04.26-10.36.11:524][883]LogContentBrowser: Attempting asset rename: HT_PJ1 -> SR_MobHoodie
+[2026.04.26-10.36.11:525][883]LogContentBrowser: End creating deferred item HT_PJ1
+[2026.04.26-10.36.14:134][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.04.26-10.36.15:056][982]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.36.15:101][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Cosmetics/SR_MobHoodie" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/SR_MobHoodie.uasset" SILENT=true
+[2026.04.26-10.36.15:103][982]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/SR_MobHoodieED24690F4CACF2616CFF01B223B2E4D9.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/SR_MobHoodie.uasset'
+[2026.04.26-10.36.15:122][982]AssetCheck: New page: Asset Save: SR_MobHoodie
+[2026.04.26-10.36.15:123][982]LogContentValidation: Display: Validating CosmeticAsset /Game/Items/Cosmetics/SR_MobHoodie.SR_MobHoodie
+[2026.04.26-10.36.16:570][ 35]LogAssetEditorSubsystem: Opening Asset editor for CosmeticAsset /Game/Items/Cosmetics/SR_MobHoodie.SR_MobHoodie
+[2026.04.26-10.36.21:540][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Cosmetics/SR_MobHoodie" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/SR_MobHoodie.uasset" SILENT=true
+[2026.04.26-10.36.21:543][269]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/SR_MobHoodie450290A2419533DEAB0918B91D6A03B9.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/SR_MobHoodie.uasset'
+[2026.04.26-10.36.21:586][269]AssetCheck: New page: Asset Save: SR_MobHoodie
+[2026.04.26-10.36.21:586][269]LogContentValidation: Display: Validating CosmeticAsset /Game/Items/Cosmetics/SR_MobHoodie.SR_MobHoodie
+[2026.04.26-10.36.26:114][411]LogSlate: Window 'SR_MobHoodie' being destroyed
+[2026.04.26-10.36.27:129][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.04.26-10.36.28:197][448]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.36.28:234][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Cosmetics/SR_MobHoodie" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/SR_MobHoodie.uasset" SILENT=true
+[2026.04.26-10.36.28:235][448]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/SR_MobHoodieC4D0E9F1498B2911BB946889FAADBFDB.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Cosmetics/SR_MobHoodie.uasset'
+[2026.04.26-10.36.28:258][448]AssetCheck: New page: Asset Save: SR_MobHoodie
+[2026.04.26-10.36.28:258][448]LogContentValidation: Display: Validating CosmeticAsset /Game/Items/Cosmetics/SR_MobHoodie.SR_MobHoodie
+[2026.04.26-10.36.52:674][511]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.36.52:689][511]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.36.52:705][511]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.36.59:908][803]LogContentBrowser: Attempting asset rename: NewDataTable -> Items
+[2026.04.26-10.36.59:909][803]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.37.01:252][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.04.26-10.37.02:054][852]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.37.02:095][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Items" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Items.uasset" SILENT=true
+[2026.04.26-10.37.02:098][852]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/ItemsC43750EA420E5786A764DC9B4DA8A63C.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Items.uasset'
+[2026.04.26-10.37.02:119][852]AssetCheck: New page: Asset Save: Items
+[2026.04.26-10.37.02:119][852]LogContentValidation: Display: Validating DataTable /Game/Items/Items.Items
+[2026.04.26-10.37.17:522][319]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.37.17:531][319]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.37.17:542][319]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.37.49:654][641]LogContentBrowser: Attempting asset rename: NewDataTable -> LS_Items
+[2026.04.26-10.37.49:655][641]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.38.01:483][871]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.38.01:493][871]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.38.01:501][871]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.38.08:111][157]LogContentBrowser: Attempting asset rename: NewDataTable -> PR_Items
+[2026.04.26-10.38.08:112][157]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.38.09:803][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.04.26-10.38.10:640][226]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.38.10:687][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/LS_Items" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/LS_Items.uasset" SILENT=true
+[2026.04.26-10.38.10:689][226]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/LS_Items898E52C84BDA69BD0EE961B638B94E25.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/LS_Items.uasset'
+[2026.04.26-10.38.10:691][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/PR_Items" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/PR_Items.uasset" SILENT=true
+[2026.04.26-10.38.10:694][226]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/PR_Items3B39607C44FCA66D9D7D6FB93D59F827.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/PR_Items.uasset'
+[2026.04.26-10.38.10:720][226]AssetCheck: New page: Asset Save: multiple assets
+[2026.04.26-10.38.10:720][226]LogContentValidation: Display: Validating DataTable /Game/Items/PR_Items.PR_Items
+[2026.04.26-10.38.10:721][226]LogContentValidation: Display: Validating DataTable /Game/Items/LS_Items.LS_Items
+[2026.04.26-10.38.42:701][428]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.38.42:709][428]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.38.42:721][428]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.38.53:041][899]LogContentBrowser: Attempting asset rename: NewDataTable -> ShopItems
+[2026.04.26-10.38.53:042][899]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.38.54:180][946]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Items/ShopItems.ShopItems
+[2026.04.26-10.38.59:297][117]LogSlate: Window 'ShopItems' being destroyed
+[2026.04.26-10.39.00:073][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.04.26-10.39.00:899][148]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.39.00:947][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/ShopItems" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/ShopItems.uasset" SILENT=true
+[2026.04.26-10.39.00:949][148]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/ShopItems31A2F4C44E66A2C5516DF68CD98942FF.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/ShopItems.uasset'
+[2026.04.26-10.39.00:973][148]AssetCheck: New page: Asset Save: ShopItems
+[2026.04.26-10.39.00:973][148]LogContentValidation: Display: Validating DataTable /Game/Items/ShopItems.ShopItems
+[2026.04.26-10.39.07:465][380]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.04.26-10.39.20:149][380]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.39.20:159][380]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.39.20:169][380]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.39.24:857][586]LogContentBrowser: Attempting asset rename: NewDataTable -> SB_Items
+[2026.04.26-10.39.24:857][586]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.39.26:474][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.04.26-10.39.27:438][654]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.39.27:476][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/SB_Items" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/SB_Items.uasset" SILENT=true
+[2026.04.26-10.39.27:479][654]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/SB_Items6903340549F5D43A487C59B5505A84BA.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/SB_Items.uasset'
+[2026.04.26-10.39.27:503][654]AssetCheck: New page: Asset Save: SB_Items
+[2026.04.26-10.39.27:503][654]LogContentValidation: Display: Validating DataTable /Game/Items/SB_Items.SB_Items
+[2026.04.26-10.39.34:935][960]LogContentBrowser: Attempting asset rename: Items -> ALLItems
+[2026.04.26-10.39.35:040][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/ALLItems" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/ALLItems.uasset" SILENT=true
+[2026.04.26-10.39.35:042][960]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/ALLItemsAE58B9A14E17877F581B58B403B482F3.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/ALLItems.uasset'
+[2026.04.26-10.39.35:144][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.04.26-10.39.35:164][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.04.26-10.39.35:172][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.04.26-10.39.35:219][960]AssetCheck: New page: Asset Save: ALLItems
+[2026.04.26-10.39.35:219][960]LogContentValidation: Display: Validating DataTable /Game/Items/ALLItems.ALLItems
+[2026.04.26-10.40.03:809][594]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.40.03:818][594]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.40.03:830][594]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.40.09:113][829]LogContentBrowser: Attempting asset rename: NewDataTable -> SP_Items
+[2026.04.26-10.40.09:114][829]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.40.10:585][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.04.26-10.40.11:492][891]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.40.11:536][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/SP_Items" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/SP_Items.uasset" SILENT=true
+[2026.04.26-10.40.11:539][891]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/SP_ItemsF388BC954AA55F4F03B3E88F6C19C75C.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/SP_Items.uasset'
+[2026.04.26-10.40.11:565][891]AssetCheck: New page: Asset Save: SP_Items
+[2026.04.26-10.40.11:565][891]LogContentValidation: Display: Validating DataTable /Game/Items/SP_Items.SP_Items
+[2026.04.26-10.40.22:576][394]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.26-10.40.22:626][394]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.26-10.40.25:347][509]LogContentBrowser: Attempting asset rename: NewFolder -> Events
+[2026.04.26-10.40.25:348][509]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.26-10.40.45:688][808]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.04.26-10.40.45:696][808]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.04.26-10.40.45:706][808]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.04.26-10.41.00:360][462]LogContentBrowser: Attempting asset rename: NewDataTable -> Events
+[2026.04.26-10.41.00:361][462]LogContentBrowser: End creating deferred item NewDataTable
+[2026.04.26-10.41.01:512][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.04.26-10.41.02:286][508]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.41.02:354][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/Events/Events" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Events/Events.uasset" SILENT=true
+[2026.04.26-10.41.02:355][508]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/EventsEF498E864B75FF6DF1DD3BBE930982B9.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Items/Events/Events.uasset'
+[2026.04.26-10.41.02:389][508]AssetCheck: New page: Asset Save: Events
+[2026.04.26-10.41.02:389][508]LogContentValidation: Display: Validating DataTable /Game/Items/Events/Events.Events
+[2026.04.26-10.41.04:961][609]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Items/ALLItems.ALLItems
+[2026.04.26-10.41.06:613][657]LogSlate: Window 'ALLItems' being destroyed
+[2026.04.26-10.41.11:723][870]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.26-10.41.11:751][870]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.26-10.41.14:056][965]LogContentBrowser: Attempting asset rename: NewFolder -> Movies
+[2026.04.26-10.41.14:057][965]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.26-10.41.15:697][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.04.26-10.41.55:975][310]LogFactory: FactoryCreateFile: FileMediaSource with AndroidFileMediaSourceFactory (0 0 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Movies\UI_TitleScreen.mp4)
+[2026.04.26-10.41.56:034][310]LogFactory: FactoryCreateFile: FileMediaSource with AndroidFileMediaSourceFactory (0 0 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Movies\UI_DoctorBootup.mp4)
+[2026.04.26-10.41.56:206][310]LogFactory: FactoryCreateFile: FileMediaSource with AndroidFileMediaSourceFactory (0 0 C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Movies\UI_Memory_connection_monitor.mp4)
+[2026.04.26-10.41.57:735][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.04.26-10.41.59:144][371]LogSlate: Window 'Save Content' being destroyed
+[2026.04.26-10.41.59:214][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Movies/UI_DoctorBootup" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Movies/UI_DoctorBootup.uasset" SILENT=true
+[2026.04.26-10.41.59:220][371]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/UI_DoctorBootupDF1F9530416DA33A99AD91B50CD28909.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Movies/UI_DoctorBootup.uasset'
+[2026.04.26-10.41.59:227][371]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/UI_Memory_connection_monitor1DB75E864723E92010D46BBDBF06EB95.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Movies/UI_Memory_connection_monitor.uasset'
+[2026.04.26-10.41.59:229][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Movies/UI_TitleScreen" FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Movies/UI_TitleScreen.uasset" SILENT=true
+[2026.04.26-10.41.59:232][371]LogSavePackage: Moving '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/UI_TitleScreen10C9B8C54409F7E11559E8B3769B7FD3.tmp' to '../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Movies/UI_TitleScreen.uasset'
+[2026.04.26-10.41.59:271][371]AssetCheck: New page: Asset Save: multiple assets
+[2026.04.26-10.41.59:272][371]LogContentValidation: Display: Validating FileMediaSource /Game/Movies/UI_Memory_connection_monitor.UI_Memory_connection_monitor
+[2026.04.26-10.41.59:272][371]LogContentValidation: Display: Validating FileMediaSource /Game/Movies/UI_DoctorBootup.UI_DoctorBootup
+[2026.04.26-10.41.59:272][371]LogContentValidation: Display: Validating FileMediaSource /Game/Movies/UI_TitleScreen.UI_TitleScreen
