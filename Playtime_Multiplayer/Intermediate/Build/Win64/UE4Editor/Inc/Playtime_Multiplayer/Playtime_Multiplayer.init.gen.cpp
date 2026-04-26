@@ -11,22 +11,18 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePlaytime_Multiplayer_init() {}
-	PLAYTIME_MULTIPLAYER_API UFunction* Z_Construct_UDelegateFunction_Playtime_Multiplayer_OnSupabaseCallback__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Playtime_Multiplayer()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
-			static UObject* (*const SingletonFuncArray[])() = {
-				(UObject* (*)())Z_Construct_UDelegateFunction_Playtime_Multiplayer_OnSupabaseCallback__DelegateSignature,
-			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Playtime_Multiplayer",
-				SingletonFuncArray,
-				UE_ARRAY_COUNT(SingletonFuncArray),
+				nullptr,
+				0,
 				PKG_CompiledIn | 0x00000000,
-				0x9B1C1DFB,
-				0xD873EAC4,
+				0x36E844F5,
+				0xC968BC2D,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

@@ -284,34 +284,195 @@
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\Playtime_Multiplayer.uproject"/>
-    <None Include="..\..\Source\Playtime_Multiplayer.Target.cs"/>
-    <None Include="..\..\Source\Playtime_MultiplayerEditor.Target.cs"/>
-    <None Include="..\..\Config\DefaultEditor.ini"/>
-    <None Include="..\..\Config\DefaultEngine.ini"/>
-    <None Include="..\..\Config\DefaultGame.ini"/>
-    <None Include="..\..\Config\DefaultInput.ini"/>
-    <ClCompile Include="..\..\Source\Playtime_Multiplayer\BackendLast.cpp">
-      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\Playtime_MultiplayerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\Definitions.Playtime_Multiplayer.h</ForcedIncludeFiles>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Playtime_Multiplayer\BackendLast.h"/>
-    <None Include="..\..\Source\Playtime_Multiplayer\Playtime_Multiplayer.Build.cs"/>
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\BoxySoundSet.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\Bundle.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\BundleAsset.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\Cosmetic.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\CosmeticAsset.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\MatchData.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\MatchPointsCriterionDef.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\MatchResultStat.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\MommySoundSet.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\PlaytimeEvent.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\PresetSlot.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\PuzzleSoundPack.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\QueueData.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\RewardableAction.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\SabotageDef.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\SaleResponseItem.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\SessionData.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ShopItem.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ShoppyFeaturedItemResponse.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ShoppyItemResponse.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ShoppyItemResponseSet.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ShoppySaleResponse.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\SoundPack.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\SoundPackEntry.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\SurvivorSoundPack.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\TicketReward.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\TicketRewardableAction.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ToyBoxResponse.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ToyBoxResponseItem.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ToyData.cpp" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\BoxySoundSet.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\Bundle.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\BundleAsset.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ChaseMusicPack.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\Cosmetic.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\CosmeticAsset.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\HostMigrationData.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\InventoryResponseItem.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\Item.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ItemAsset.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ItemDefinition.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\LeaverSaveGame.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\LevelResponse.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\LevelStruct.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\LoadingScreen.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\LoadingScreenAsset.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\LobbyMusicPack.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\MatchData.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\MatchPointsCriterionDef.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\MatchResultStat.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\MommySoundSet.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnInitializedDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnIntArraySuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnIntSuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\Perk.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\PerkPackage.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\PerkResponseItem.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\PlayerData.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\PlaytimeEvent.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\PresetSlot.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\PuzzleSoundPack.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\QueueData.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\RewardableAction.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\SabotageDef.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\SaleResponseItem.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\SessionData.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ShopItem.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ShoppyFeaturedItemResponse.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ShoppyItemResponse.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ShoppyItemResponseSet.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ShoppySaleResponse.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\SoundPack.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\SoundPackEntry.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\SurvivorSoundPack.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\TicketReward.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\TicketRewardableAction.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ToyBoxResponse.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ToyBoxResponseItem.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ToyData.h" />
+    <None Include="..\..\Playtime_Multiplayer.uproject" />
+    <None Include="..\..\Source\Playtime_Multiplayer.Target.cs" />
+    <None Include="..\..\Source\Playtime_MultiplayerEditor.Target.cs" />
+    <None Include="..\..\Config\DefaultEditor.ini" />
+    <None Include="..\..\Config\DefaultEngine.ini" />
+    <None Include="..\..\Config\DefaultGame.ini" />
+    <None Include="..\..\Config\DefaultInput.ini" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ActionAsset.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\AmbiencePack.cpp" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ActionAsset.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\AmbiencePack.h" />
+    <None Include="..\..\Source\Playtime_Multiplayer\Playtime_Multiplayer.Build.cs" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\BackendSubsystem.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ChaseMusicPack.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\HostMigrationData.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\InventoryResponseItem.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\Item.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ItemAsset.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\ItemDefinition.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\LeaverSaveGame.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\LevelResponse.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\LevelStruct.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\LoadingScreen.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\LoadingScreenAsset.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\LobbyMusicPack.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\Perk.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\PerkPackage.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\PerkResponseItem.cpp" />
+    <ClCompile Include="..\..\Source\Playtime_Multiplayer\PlayerData.cpp" />
     <ClCompile Include="..\..\Source\Playtime_Multiplayer\Playtime_Multiplayer.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\Playtime_MultiplayerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\Playtime_Multiplayer\Definitions.Playtime_Multiplayer.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Playtime_Multiplayer\Playtime_Multiplayer.h"/>
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\BackendSubsystem.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EAttachmentStateChange.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EAttackType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EBoxySoundSet.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EBoxyStatistics.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ECharacterType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ECosmeticFilter.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ECosmeticOutfitSkinType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ECosmeticRarity.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ECosmeticTypeEnum.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ECustomMovementMode.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EDoorState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EFearState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EFistState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EGeneralStatistics.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EGrabbableParameter.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EHandState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EHandStateChange.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EHostMigrationType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EHuggyMovementMode.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EHuggySoundSet.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EHuggyStatistics.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EInteractedWithState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EItemType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ELimb.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMantleState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMatchResult.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMatchResultState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMatchState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMazeComponentType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMommyGrappleState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMommyMovementMode.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMommySoundSet.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMommyStatistics.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMonsterSecondaryObjectives.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMonsterStatistics.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EMusicTag.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EParkourType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EPerkType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EPlayerStatistics.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EProgressMilestone.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EPuzzleState.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EPuzzleType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ERandomStatistics.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ERewardableActions.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ERotatorAxis.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ESabotageType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ESecondaryObjectives.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ESoundPackType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EStatisticCategory.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EToyStatus.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EToyType.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\ETransition.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\EUIMode.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnCurrentToyBoxSuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnDailyRewardsSuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnFailureDelegate2.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnGetPerksSuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnInventorySuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnLevelSuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnShoppySuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnSubmitMatchSummarySuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnSuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\OnWalletSuccessDelegate.h" />
+    <ClInclude Include="..\..\Source\Playtime_Multiplayer\Playtime_Multiplayer.h" />
   </ItemGroup>
   <PropertyGroup>
-    <SourcePath></SourcePath>
+    <SourcePath>
+    </SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <PropertyGroup>
     <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
-    <CppCleanDependsOn></CppCleanDependsOn>
+    <CppCleanDependsOn>
+    </CppCleanDependsOn>
   </PropertyGroup>
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
