@@ -499,3 +499,329 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2026.04.26-19.08.41:192][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
 [2026.04.26-19.08.41:236][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
 [2026.04.26-19.08.41:236][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.04.26-19.08.47:991][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2026.04.26-19.08.47:998][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2026.04.26-19.08.47:998][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2026.04.26-19.08.47:998][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2026.04.26-19.08.47:998][  0]LogD3D11RHI: D3D11 adapters:
+[2026.04.26-19.08.48:148][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Graphics' (Feature Level 11_0)
+[2026.04.26-19.08.48:148][  0]LogD3D11RHI:       2033/0/3031 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2026.04.26-19.08.48:157][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:       0/0/3031 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:     Description : AMD Radeon(TM) Graphics
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:     VendorId    : 1002
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:     DeviceId    : 15d8
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:     SubSysId    : 8706103c
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:     Revision    : 00c4
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:     DedicatedVideoMemory : 2132467712 bytes
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:     SharedSystemMemory : 3179114496 bytes
+[2026.04.26-19.08.48:158][  0]LogD3D11RHI:     AdapterLuid : 0 69907
+[2026.04.26-19.08.48:172][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2026.04.26-19.08.48:172][  0]LogD3D11RHI:     GPU DeviceId: 0x15d8 (for the marketing name, search the web for "GPU Device Id")
+[2026.04.26-19.08.48:172][  0]LogWindows: EnumDisplayDevices:
+[2026.04.26-19.08.48:172][  0]LogWindows:    0. 'AMD Radeon(TM) Graphics' (P:1 D:1)
+[2026.04.26-19.08.48:173][  0]LogWindows:    1. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2026.04.26-19.08.48:173][  0]LogWindows:    2. 'AMD Radeon(TM) Graphics' (P:0 D:0)
+[2026.04.26-19.08.48:174][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2026.04.26-19.08.48:174][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Graphics
+[2026.04.26-19.08.48:174][  0]LogD3D11RHI:   Driver Version: AMD Software: Adrenalin Edition 25.8.1 (internal:31.0.21923.11000, unified:31.0.21923.11000)
+[2026.04.26-19.08.48:174][  0]LogD3D11RHI:      Driver Date: 7-1-2025
+[2026.04.26-19.08.48:174][  0]LogRHI: Texture pool is 3191 MB (70% of 4558 MB)
+[2026.04.26-19.08.48:290][  0]LogD3D11RHI: Creating D3DDevice with AMD AGS, using adapter:
+[2026.04.26-19.08.48:290][  0]LogD3D11RHI:     Description : AMD Radeon(TM) Graphics
+[2026.04.26-19.08.48:290][  0]LogD3D11RHI:     VendorId    : 1002
+[2026.04.26-19.08.48:291][  0]LogD3D11RHI:     DeviceId    : 15d8
+[2026.04.26-19.08.48:291][  0]LogD3D11RHI:     SubSysId    : 8706103c
+[2026.04.26-19.08.48:291][  0]LogD3D11RHI:     Revision    : 00c4
+[2026.04.26-19.08.48:291][  0]LogD3D11RHI:     DedicatedVideoMemory : 2132467712 bytes
+[2026.04.26-19.08.48:291][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2026.04.26-19.08.48:291][  0]LogD3D11RHI:     SharedSystemMemory : 3179114496 bytes
+[2026.04.26-19.08.48:291][  0]LogD3D11RHI:     AdapterLuid : 0 69907
+[2026.04.26-19.08.48:448][  0]LogD3D11RHI: Created device via AGS, feature level 11_0, supported extensions 1fffffbf.
+[2026.04.26-19.08.48:448][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2026.04.26-19.08.48:448][  0]LogD3D11RHI: Async texture creation enabled
+[2026.04.26-19.08.48:448][  0]LogD3D11RHI: Array index from any shader is supported
+[2026.04.26-19.08.48:499][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2026.04.26-19.08.49:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2026.04.26-19.08.49:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2026.04.26-19.08.49:966][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2026.04.26-19.08.49:966][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2026.04.26-19.08.49:984][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2026.04.26-19.08.49:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2026.04.26-19.08.50:002][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2026.04.26-19.08.50:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2026.04.26-19.08.50:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2026.04.26-19.08.50:036][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2026.04.26-19.08.50:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2026.04.26-19.08.50:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2026.04.26-19.08.50:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2026.04.26-19.08.50:100][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2026.04.26-19.08.50:108][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2026.04.26-19.08.50:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2026.04.26-19.08.50:135][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2026.04.26-19.08.50:157][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2026.04.26-19.08.50:157][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2026.04.26-19.08.50:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2026.04.26-19.08.50:189][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.04.26-19.08.50:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.04.26-19.08.50:213][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.04.26-19.08.50:213][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2026.04.26-19.08.50:233][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.04.26-19.08.50:327][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2026.04.26-19.08.50:492][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2026.04.26-19.08.50:492][  0]LogShaderLibrary: Display: Running without a pakfile and did not find a monolithic library 'Global' - attempting disk search for its chunks
+[2026.04.26-19.08.50:493][  0]LogShaderLibrary: Display:    ....  not found
+[2026.04.26-19.08.50:496][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Intermediate/Shaders/WorkingDirectory/16380/).
+[2026.04.26-19.08.50:496][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Xdox2/AppData/Local/Temp/UnrealShaderWorkingDir/427098B24A57DA64DD90FC9A58C58929/'.
+[2026.04.26-19.08.50:497][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2026.04.26-19.08.50:497][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2026.04.26-19.08.50:497][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2026.04.26-19.08.52:573][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2026.04.26-19.08.53:083][  0]LogDerivedDataCache: Loaded boot cache 0.51s 94MB C:/Users/Xdox2/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2026.04.26-19.08.53:084][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Xdox2/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2026.04.26-19.08.53:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2026.04.26-19.08.53:084][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2026.04.26-19.08.53:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.04.26-19.08.53:084][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2026.04.26-19.08.53:117][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2026.04.26-19.08.53:117][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.04.26-19.08.53:117][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2026.04.26-19.08.53:140][  0]LogDerivedDataCache: Speed tests for C:/Users/Xdox2/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.02 seconds
+[2026.04.26-19.08.53:140][  0]LogDerivedDataCache: Display: Performance to C:/Users/Xdox2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.04ms. RandomReadSpeed=138.84MBs, RandomWriteSpeed=59.15MBs. Assigned SpeedClass 'Local'
+[2026.04.26-19.08.53:174][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xdox2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2026.04.26-19.08.53:175][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2026.04.26-19.08.53:175][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2026.04.26-19.08.53:277][  0]LogSlate: Using FreeType 2.10.0
+[2026.04.26-19.08.53:278][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.04.26-19.08.53:368][  0]LogAssetRegistry: FAssetRegistry took 0.0047 seconds to start up
+[2026.04.26-19.08.54:006][  0]LogInit: Selected Device Profile: [Windows]
+[2026.04.26-19.08.54:006][  0]LogInit: Active device profile: [00000210EFF32000][00000210EE6D60C0 49] Windows
+[2026.04.26-19.08.54:006][  0]LogInit: Profiles: [00000210EFF32000][00000210EE6D60C0 49] Windows, [00000210EFEE1B00][00000210EE7E4240 49] WindowsNoEditor, [00000210EFF31900][00000210EE7E83C0 49] WindowsServer, [00000210EFEE3B00][00000210EE7EC540 49] WindowsClient, [00000210EFF31C00][00000210EE7F06C0 49] IOS, [00000210EFEE3F00][00000210EE7F4840 49] iPadAir, [00000210EFF31700][00000210EE7F89C0 49] iPadAir2, [00000210EFE85400][00000210EE2DAC40 49] IPadPro, [00000210EFE85500][00000210EE7FCC80 49] iPadAir3, [00000210EFF33E00][00000210EE800DC0 49] iPadAir4, [00000210EFE87500][00000210EE804F00 49] iPadMini2, [00000210EFF30500][00000210EE80D080 49] iPadMini3, [00000210EFE84800][00000210EE811200 49] iPadMini4, [00000210EFF33200][00000210EE815380 49] iPadMini5, [00000210EFEB0D00][00000210EE81D640 49] iPhone6, [00000210EFEB0E00][00000210EE819680 49] iPodTouch6, [00000210EFEE1700][00000210EE825940 49] iPhone7, [00000210EFEE3D00][00000210EE821980 49] iPodTouch7, [00000210EFEB2F00][00000210EE829B00 49] iPhone5S, [00000210EFEE1500][00000210EE82C100 49] iPhone6Plus, [00000210EFEB0600][00000210EE830280 49] iPhone6S, [00000210EFEE2E00][00000210EE834400 49] iPhone6SPlus, [00000210EFEB1F00][00000210EE838580 49] iPhone7Plus, [00000210EFEE0C00][00000210EE83C700 49] iPhoneSE, [00000210EFEB3300][00000210EE840880 49] iPhone8, [00000210EFEE2100][00000210EE844A00 49] iPhone8Plus, [00000210EFEB3000][00000210EE848B80 49] iPhoneX, [00000210EFEE1600][00000210EE84CD00 49] iPhoneXS, [00000210EFEB1A00][00000210EE808E40 49] iPhoneXSMax, [00000210EFEE2900][00000210EE850F80 49] iPhoneXR, [00000210EFEB3100][00000210EE8550C0 49] iPhone11, [00000210EFEE2D00][00000210EE85D240 49] iPhone11Pro, [00000210EFEB1000][00000210EF0913C0 49] iPhone11ProMax, [00000210EFEE1300][00000210EF095540 49] iPhoneSE2, [00000210EFEB1800][00000210EF0996C0 49] iPhone12Mini, [00000210EFEE0F00][00000210EF09D840 49] iPhone12, [00000210EFEB2400][00000210EF0A19C0 49] iPhone12Pro, [00000210EFEE3500][00000210EF0A5B40 49] iPhone12ProMax, [00000210EFEB0700][00000210EF0A8140 49] iPadPro105, [00000210EFEE3100][00000210EF0AC2C0 49] iPadPro129, [00000210EFEB3700][00000210EF0B0440 49] iPadPro97, [00000210EFEE1400][00000210EF0B45C0 49] iPadPro2_129, [00000210EFEB2E00][00000210EF0B8740 49] iPad5, [00000210EFF30E00][00000210EF0BC8C0 49] iPad6, [00000210EFFC1500][00000210EF0C0A40 49] iPad7, [00000210EFEB1700][00000210EF0C4BC0 49] iPad8, [00000210EFEE2F00][00000210EF0C8D40 49] iPadPro11, [00000210EFEB2D00][00000210EF0CCEC0 49] iPadPro2_11, [00000210EFEE0900][00000210EE859000 49] iPadPro3_129, [00000210EFEB0300][00000210EF0D1140 49] iPadPro4_129, [00000210EFEE1000][00000210EF0D5280 49] AppleTV, [00000210EFEB3E00][00000210EF0D93C0 49] AppleTV4K, [00000210EFEE0200][00000210EF0E1540 49] TVOS, [00000210EFEB1E00][00000210D4D996C0 49] Mac, [00000210EFEE0500][00000210D4D9D840 49] MacClient, [00000210EFEB3D00][00000210D4DA19C0 49] MacNoEditor, [00000210EFEE1100][00000210D4DA5B40 49] MacServer, [00000210EFEB2300][00000210D4DA8140 49] Linux, [00000210EFEE2300][00000210D4DAC2C0 49] LinuxAArch64, [00000210EFEB1400][00000210D4DB0440 49] LinuxNoEditor, [00000210EFEE2400][00000210D4DB45C0 49] LinuxAArch64NoEditor, [00000210EFEB3500][00000210D4DB8740 49] LinuxClient, [00000210EFEE0100][00000210D4DBC8C0 49] LinuxAArch64Client, [00000210EFFC0D00][00000210D4DC0A40 49] LinuxServer, [00000210EFEE3300][00000210D4DC4BC0 49] LinuxAArch64Server, [00000210EFEB3600][00000210EF0E4D40 49] Android, [00000210EFEE2500][00000210EF0E8EC0 49] Android_Low, [00000210EFEB1B00][00000210EF0ED040 49] Android_Mid, [00000210EFEE3400][00000210EF0DD180 49] Android_High, [00000210EFEB1100][00000210EF0F12C0 49] Android_Default, [00000210EFEE1800][00000210EF0F5400 49] Android_Adreno4xx, [00000210EFEB2B00][00000210EF0F9540 49] Android_Adreno5xx_Low, [00000210EFEE3200][00000210EF1016C0 49] Android_Adreno5xx, [00000210EFEB0100][00000210EF105840 49] Android_Adreno6xx, [00000210EFEE2200][00000210EF1099C0 49] Android_Adreno6xx_Vulkan, [00000210EFEB0800][00000210EF10DB40 49] Android_Mali_T6xx, [00000210EFEE3700][00000210EF110140 49] Android_Mali_T7xx, [00000210EFEB0A00][00000210EF1242C0 49] Android_Mali_T8xx, [00000210EFEE1D00][00000210EF1AA440 49] Android_Mali_G71, [00000210EFEB0500][00000210E796C5C0 49] Android_Mali_G72, [00000210EFEE2000][00000210E7970740 49] Android_Mali_G72_Vulkan, [00000210EFEB2C00][00000210E79748C0 49] Android_Mali_G76, [00000210EFEE2700][00000210E798AA40 49] Android_Mali_G76_Vulkan, [00000210EFEB2100][00000210E8A92BC0 49] Android_Mali_G77, [00000210EFEE1A00][00000210E8B3CD40 49] Android_Mali_G77_Vulkan, [00000210EFEB1D00][00000210E8B40EC0 49] Android_Mali_G78, [00000210EFEE0700][00000210E7B59040 49] Android_Mali_G78_Vulkan, [00000210EFE86400][00000210E7B611C0 49] Android_Mali_G710, [00000210EFEE3000][00000210E7B69340 49] Android_Mali_G710_Vulkan, [00000210EFE87E00][00000210EF0FD480 49] Android_Vulkan_SM5, [00000210EFFC0700][00000210E7B6D5C0 49] Android_PowerVR_G6xxx, [00000210EFE86600][00000210E7B71700 49] Android_PowerVR_GT7xxx, [00000210EFEE0600][00000210E7B79880 49] Android_PowerVR_GE8xxx, [00000210EFF31A00][00000210EE219A00 49] Android_PowerVR_GM9xxx, [00000210EFEB0C00][00000210EE2C7B80 49] Android_PowerVR_GM9xxx_Vulkan, [00000210EFF31200][00000210EE2CA180 49] Android_TegraK1, [00000210EFEB0200][00000210EE2CE300 49] Android_Unknown_Vulkan, [00000210EFF30400][00000210EE2D2480 49] Lumin, [00000210EFEB3400][00000210EE2D6600 49] Lumin_Desktop, [00000210EFF32800][00000210EF42E780 49] HoloLens, 
+[2026.04.26-19.08.54:322][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.04.26-19.08.54:322][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2026.04.26-19.08.54:322][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.04.26-19.08.54:322][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2026.04.26-19.08.54:323][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.04.26-19.08.54:366][  0]LogNetVersion: Playtime_Multiplayer 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2025055209)
+[2026.04.26-19.08.55:965][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2026.04.26-19.08.56:091][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2026.04.26-19.08.56:102][  0]LogUObjectArray: 17186 objects as part of root set at end of initial load.
+[2026.04.26-19.08.56:102][  0]LogUObjectAllocator: 4313952 out of 0 bytes used by permanent object pool.
+[2026.04.26-19.08.56:102][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.04.26-19.08.56:976][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 01A131C74036BA13F851E79F01DF578B | Instance: 455698344D5652BDC37483867656DA92 (SIBIDI-16380).
+[2026.04.26-19.08.57:508][  0]LogPython: Using Python 3.7.7
+[2026.04.26-19.08.59:066][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2026.04.26-19.08.59:077][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2026.04.26-19.08.59:255][  0]LogVaRest: FVaRestModule::StartupModule(28): VaRest (1.1.33) module started
+[2026.04.26-19.08.59:305][  0]LogPython: Warning: 'EBoxySoundSet' and 'BoxySoundSet' have the same name (BoxySoundSet) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+[2026.04.26-19.08.59:312][  0]LogPython: Warning: 'EMommySoundSet' and 'MommySoundSet' have the same name (MommySoundSet) when exposed to Python. Rename one of them using 'ScriptName' meta-data.
+[2026.04.26-19.08.59:887][  0]SourceControl: Source control is disabled
+[2026.04.26-19.08.59:887][  0]SourceControl: Source control is disabled
+[2026.04.26-19.08.59:916][  0]SourceControl: Source control is disabled
+[2026.04.26-19.08.59:932][  0]SourceControl: Source control is disabled
+[2026.04.26-19.08.59:963][  0]SourceControl: Source control is disabled
+[2026.04.26-19.08.59:969][  0]LogUProjectInfo: Found projects:
+[2026.04.26-19.09.00:995][  0]LogOpenImageDenoise: OIDN starting up
+[2026.04.26-19.09.01:137][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.04.26-19.09.01:213][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.04.26-19.09.01:213][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.04.26-19.09.01:803][  0]LogCollectionManager: Loaded 0 collections in 0.004306 seconds
+[2026.04.26-19.09.01:909][  0]LogFileCache: Scanning file cache for directory 'C:/LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Saved/Collections/' took 0.01s
+[2026.04.26-19.09.01:909][  0]LogFileCache: Scanning file cache for directory 'C:/LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Developers/Xdox2/Collections/' took 0.00s
+[2026.04.26-19.09.01:910][  0]LogFileCache: Scanning file cache for directory 'C:/LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/Collections/' took 0.00s
+[2026.04.26-19.09.01:910][  0]LogOcInput: OculusInput pre-init called
+[2026.04.26-19.09.03:707][  0]LogClass: Display: BoolProperty FBPSteamGroupOfficer::bIsOwner is not initialized properly. Module:AdvancedSteamSessions File:Classes/SteamRequestGroupOfficersCallbackProxy.h
+[2026.04.26-19.09.03:708][  0]LogClass: Display: IntProperty FBPSteamGroupInfo::numOnline is not initialized properly. Module:AdvancedSteamSessions File:Classes/AdvancedSteamFriendsLibrary.h
+[2026.04.26-19.09.03:708][  0]LogClass: Display: IntProperty FBPSteamGroupInfo::numInGame is not initialized properly. Module:AdvancedSteamSessions File:Classes/AdvancedSteamFriendsLibrary.h
+[2026.04.26-19.09.03:708][  0]LogClass: Display: IntProperty FBPSteamGroupInfo::numChatting is not initialized properly. Module:AdvancedSteamSessions File:Classes/AdvancedSteamFriendsLibrary.h
+[2026.04.26-19.09.03:708][  0]LogClass: Warning: StructProperty FPlaytimeEvent::StartDate is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:PlaytimeEvent.h
+[2026.04.26-19.09.03:708][  0]LogClass: Warning: StructProperty FPlaytimeEvent::EndDate is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:PlaytimeEvent.h
+[2026.04.26-19.09.03:708][  0]LogClass: Warning: StructProperty FShoppyItemResponseSet::StartTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ShoppyItemResponseSet.h
+[2026.04.26-19.09.03:708][  0]LogClass: Warning: StructProperty FShoppyItemResponseSet::EndTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ShoppyItemResponseSet.h
+[2026.04.26-19.09.03:708][  0]LogClass: Warning: StructProperty FShoppySaleResponse::StartTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ShoppySaleResponse.h
+[2026.04.26-19.09.03:708][  0]LogClass: Warning: StructProperty FShoppySaleResponse::EndTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ShoppySaleResponse.h
+[2026.04.26-19.09.03:709][  0]LogClass: Warning: StructProperty FToyBoxResponse::StartTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ToyBoxResponse.h
+[2026.04.26-19.09.03:709][  0]LogClass: Warning: StructProperty FToyBoxResponse::EndTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ToyBoxResponse.h
+[2026.04.26-19.09.03:714][  0]LogClass: Display: EnumProperty FVaRest_NamedType::Type is not initialized properly. Module:VaRestEditor File:Public/VaRest_BreakJson.h
+[2026.04.26-19.09.03:714][  0]LogClass: Display: BoolProperty FVaRest_NamedType::bIsArray is not initialized properly. Module:VaRestEditor File:Public/VaRest_BreakJson.h
+[2026.04.26-19.09.03:714][  0]LogClass: Display: 14 Uninitialized script struct members found including 0 object properties
+[2026.04.26-19.09.03:718][  0]LogAutomationTest: Warning: StructProperty FPlaytimeEvent::StartDate is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:PlaytimeEvent.h
+[2026.04.26-19.09.03:718][  0]LogAutomationTest: Warning: StructProperty FPlaytimeEvent::EndDate is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:PlaytimeEvent.h
+[2026.04.26-19.09.03:718][  0]LogAutomationTest: Warning: StructProperty FShoppyItemResponseSet::StartTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ShoppyItemResponseSet.h
+[2026.04.26-19.09.03:718][  0]LogAutomationTest: Warning: StructProperty FShoppyItemResponseSet::EndTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ShoppyItemResponseSet.h
+[2026.04.26-19.09.03:718][  0]LogAutomationTest: Warning: StructProperty FShoppySaleResponse::StartTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ShoppySaleResponse.h
+[2026.04.26-19.09.03:718][  0]LogAutomationTest: Warning: StructProperty FShoppySaleResponse::EndTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ShoppySaleResponse.h
+[2026.04.26-19.09.03:718][  0]LogAutomationTest: Warning: StructProperty FToyBoxResponse::StartTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ToyBoxResponse.h
+[2026.04.26-19.09.03:718][  0]LogAutomationTest: Warning: StructProperty FToyBoxResponse::EndTime is not initialized properly even though its struct probably has a custom default constructor. Module:Playtime_Multiplayer File:ToyBoxResponse.h
+[2026.04.26-19.09.03:728][  0]LogEngine: Initializing Engine...
+[2026.04.26-19.09.03:729][  0]LogVaRest: UVaRestSubsystem::Initialize(24): VaRest subsystem initialized
+[2026.04.26-19.09.03:748][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2026.04.26-19.09.03:748][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2026.04.26-19.09.03:749][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2026.04.26-19.09.03:757][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.003 s
+[2026.04.26-19.09.04:304][  0]LogLinker: Warning: Failed to load '/Game/PSHOWTIMEPHASE3/UI/UI_Utility/UI_Cursor': Can't find file.
+[2026.04.26-19.09.04:304][  0]LogLinker: Warning: Failed to load '/Game/PSHOWTIMEPHASE3/UI/UI_Utility/UI_Cursor': Can't find file.
+[2026.04.26-19.09.04:304][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/PSHOWTIMEPHASE3/UI/UI_Utility/UI_Cursor.UI_Cursor_C'
+[2026.04.26-19.09.04:304][  0]LogLoad: Warning: UUserInterfaceSettings::ForceLoadResources: Failed to load cursor resource 0.
+[2026.04.26-19.09.04:305][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.04.26-19.09.04:344][  0]LogAIModule: Creating AISystem for world Untitled
+[2026.04.26-19.09.04:345][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.04.26-19.09.04:358][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.04.26-19.09.04:361][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.04.26-19.09.04:364][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.04.26-19.09.04:364][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.04.26-19.09.04:365][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.26-19.09.04:365][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.26-19.09.04:365][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 512
+[2026.04.26-19.09.04:365][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  512
+[2026.04.26-19.09.04:365][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.26-19.09.04:365][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2026.04.26-19.09.04:365][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.26-19.09.04:365][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.26-19.09.04:365][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.26-19.09.04:366][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.26-19.09.04:366][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.26-19.09.04:366][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2026.04.26-19.09.04:421][  0]LogAudioMixer: Display: 0: FrontLeft
+[2026.04.26-19.09.04:421][  0]LogAudioMixer: Display: 1: FrontRight
+[2026.04.26-19.09.04:490][  0]LogAudioMixer: Display: Using Audio Device Voicemeeter VAIO3 Input (VB-Audio Voicemeeter VAIO)
+[2026.04.26-19.09.04:498][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.26-19.09.04:508][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.26-19.09.04:508][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.26-19.09.04:510][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2026.04.26-19.09.04:510][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2026.04.26-19.09.04:510][  0]LogAudioMixer: Display: Output buffers initialized: Frames=512, Channels=2, Samples=1024
+[2026.04.26-19.09.04:516][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2026.04.26-19.09.04:516][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2026.04.26-19.09.04:516][  0]LogInit: FAudioDevice initialized.
+[2026.04.26-19.09.04:516][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.04.26-19.09.04:516][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.04.26-19.09.04:922][  0]LogDerivedDataCache: Saved boot cache 0.40s 94MB C:/Users/Xdox2/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2026.04.26-19.09.04:923][  0]LogInit: Texture streaming: Enabled
+[2026.04.26-19.09.04:963][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2026.04.26-19.09.04:986][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2026.04.26-19.09.04:986][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={FE0EF56E-4621-BF36-C6AA-1FAD4DE53950}
+[2026.04.26-19.09.04:986][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2026.04.26-19.09.04:995][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2026.04.26-19.09.05:088][  0]LogInit: Transaction tracking system initialized
+[2026.04.26-19.09.05:218][  0]BlueprintLog: New page: Editor Load
+[2026.04.26-19.09.05:579][  0]LocalizationService: Localization service is disabled
+[2026.04.26-19.09.05:707][  0]TimingProfiler: Initialize
+[2026.04.26-19.09.05:710][  0]TimingProfiler: OnSessionChanged
+[2026.04.26-19.09.05:711][  0]LoadingProfiler: Initialize
+[2026.04.26-19.09.05:712][  0]LoadingProfiler: OnSessionChanged
+[2026.04.26-19.09.05:712][  0]NetworkingProfiler: Initialize
+[2026.04.26-19.09.05:718][  0]NetworkingProfiler: OnSessionChanged
+[2026.04.26-19.09.05:718][  0]MemoryProfiler: Initialize
+[2026.04.26-19.09.05:718][  0]MemoryProfiler: OnSessionChanged
+[2026.04.26-19.09.06:277][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2026.04.26-19.09.06:277][  0]LogCook: Display: Mobile HDR setting 1
+[2026.04.26-19.09.06:932][  0]LogFileCache: Scanning file cache for directory 'C:/LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/' took 0.03s
+[2026.04.26-19.09.07:765][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.04.26-19.09.07:783][  0]SourceControl: Source control is disabled
+[2026.04.26-19.09.07:784][  0]LogUnrealEdMisc: Loading editor; pre map load, took 32.529
+[2026.04.26-19.09.07:786][  0]Cmd: MAP LOAD FILE="../../../../../../LastStep/PROJECT-LAST-STEP/Playtime_Multiplayer/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2026.04.26-19.09.07:788][  0]LightingResults: New page: Lighting Build
+[2026.04.26-19.09.07:795][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.04.26-19.09.07:795][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.26-19.09.07:795][  0]MapCheck: New page: Map Check
+[2026.04.26-19.09.07:795][  0]LightingResults: New page: Lighting Build
+[2026.04.26-19.09.07:808][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.26-19.09.07:814][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.04.26-19.09.07:822][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2026.04.26-19.09.07:824][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2026.04.26-19.09.07:832][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.04.26-19.09.07:856][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2026.04.26-19.09.07:859][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.04.26-19.09.07:860][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,543ms to complete.
+[2026.04.26-19.09.07:860][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.075
+[2026.04.26-19.09.07:894][  0]LogUnrealEdMisc: Total Editor Startup Time, took 32.639
+[2026.04.26-19.09.07:973][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2026.04.26-19.09.08:161][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.26-19.09.08:175][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.26-19.09.08:188][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.26-19.09.08:199][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.26-19.09.08:254][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0209 seconds. Added 3870 classes and 945 folders.
+[2026.04.26-19.09.08:273][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2026.04.26-19.09.08:284][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2026.04.26-19.09.08:287][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2026.04.26-19.09.08:428][  0]LogSlate: Took 0.002428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.04.26-19.09.08:434][  0]LogSlate: Took 0.002348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.04.26-19.09.08:439][  0]LogSlate: Took 0.002341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.04.26-19.09.08:613][  0]LogRenderer: Reallocating scene render targets to support 1392x232 Format 9 NumSamples 1 (Frame:1).
+[2026.04.26-19.09.09:489][  0]LogSlate: Took 0.001600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.04.26-19.09.09:724][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2026.04.26-19.09.09:725][  0]LogLoad: (Engine Initialization) Total time: 34.47 seconds
+[2026.04.26-19.09.09:725][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2026.04.26-19.09.09:814][  0]LogContentStreaming: Texture pool size now 400 MB
+[2026.04.26-19.09.09:977][  2]LogAssetRegistry: Asset discovery search completed in 16.6105 seconds
+[2026.04.26-19.09.09:998][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2026.04.26-19.09.10:776][ 43]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.04.26-19.09.14:901][249]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/Cosmetics/BP_Cont/BP_PlayerCosmeticmesh.BP_PlayerCosmeticmesh
+[2026.04.26-19.09.15:776][249]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 126 classes and 0 folders.
+[2026.04.26-19.09.18:097][249]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player/BP_NetworkCharacter.BP_NetworkCharacter
+[2026.04.26-19.09.19:065][249]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/World/Character/Player/PlayerMove.PlayerMove
+[2026.04.26-19.09.19:102][249]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2026.04.26-19.09.19:125][249]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2026.04.26-19.09.19:361][249]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2026.04.26-19.09.19:580][249]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.04.26-19.09.19:614][249]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2026.04.26-19.09.21:163][249]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/Cosmetics/BP_Cont/GrabPack.GrabPack
+[2026.04.26-19.09.21:898][249]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Items/ALLItems.ALLItems
+[2026.04.26-19.09.22:213][249]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/CosmeticsFunctions.CosmeticsFunctions
+[2026.04.26-19.09.22:981][249]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/World/Character/Player/Crouch.Crouch
+[2026.04.26-19.09.23:006][249]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.04.26-19.09.23:585][249]LogBlueprint: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\BaseMultiplayer\GameModes\Default\BP_DefaultController.uasset: [Compiler] InputKey Event specifies axis FKey'MouseWheelAxis' for  Mouse Wheel Axis
+[2026.04.26-19.09.23:630][249]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BaseMultiplayer/GameModes/Default/BP_DefaultController.BP_DefaultController
+[2026.04.26-19.09.24:613][249]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MULTIPLAYER/SERVER.SERVER
+[2026.04.26-19.09.25:698][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:700][249]LoadErrors: Failed to load /Game/Widgets/textures/выходbutton.выходbutton Referenced by Button_63
+[2026.04.26-19.09.25:700][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:701][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:701][249]LoadErrors: Failed to load /Game/Widgets/textures/выходbutton.выходbutton Referenced by Button_77
+[2026.04.26-19.09.25:701][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:724][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\CHOOSE.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_200059': Can't find file.
+[2026.04.26-19.09.25:725][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\CHOOSE.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_200059': Can't find file.
+[2026.04.26-19.09.25:725][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\CHOOSE.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_200059': Can't find file.
+[2026.04.26-19.09.25:726][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_200059': Can't find file.
+[2026.04.26-19.09.25:727][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_200059': Can't find file.
+[2026.04.26-19.09.25:727][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_200059': Can't find file.
+[2026.04.26-19.09.25:727][249]LoadErrors: Failed to load /Game/Widgets/textures/Снимок_экрана_2026-04-01_200059.Снимок_экрана_2026-04-01_200059 Referenced by Image_0
+[2026.04.26-19.09.25:736][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:736][249]LoadErrors: Failed to load /Game/Widgets/textures/Снимок_экрана_2026-04-01_193405.Снимок_экрана_2026-04-01_193405 Referenced by Image_363
+[2026.04.26-19.09.25:736][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:755][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\TAG_PLAY.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:757][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\TAG_PLAY.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:758][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:759][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:760][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:760][249]LoadErrors: Failed to load /Game/Widgets/textures/Снимок_экрана_2026-04-01_193405.Снимок_экрана_2026-04-01_193405 Referenced by Image_0
+[2026.04.26-19.09.25:762][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:762][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:764][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_play.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:768][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_mode.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:769][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\choice_mode.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:771][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:773][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:775][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:775][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:776][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:882][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:882][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\Buttons.uasset: Failed to load '/Game/Widgets/textures/выходbutton': Can't find file.
+[2026.04.26-19.09.25:890][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\TAG_PLAY.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_193405': Can't find file.
+[2026.04.26-19.09.25:898][249]LogLinker: Warning: [AssetLog] C:\LastStep\PROJECT-LAST-STEP\Playtime_Multiplayer\Content\Widgets\CHOOSE.uasset: Failed to load '/Game/Widgets/textures/Снимок_экрана_2026-04-01_200059': Can't find file.
+[2026.04.26-19.09.26:066][249]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MULTIPLAYER/SERVER_LIST.SERVER_LIST
+[2026.04.26-19.09.26:865][249]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/choice_play.choice_play
+[2026.04.26-19.09.29:063][249]LogRenderer: Reallocating scene render targets to support 1392x256 Format 9 NumSamples 1 (Frame:1).
+[2026.04.26-19.09.29:393][249]LogSlate: Took 0.002211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
