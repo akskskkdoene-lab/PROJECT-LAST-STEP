@@ -1,0 +1,65 @@
+{
+  "Items": [
+    {
+      "ItemID": 646,
+      "Bundle?": true,
+      "Discount": false,
+      "EventName": "None",
+      "PriceCoins": 1500
+      },
+      {
+      "ItemID": 1005,
+      "Bundle?": true,
+      "Discount": false,
+      "EventName": "None",
+      "PriceCoins": 500,
+      "PriceTickets": 90000
+      },
+      {
+      "ItemID": 466,
+      "Bundle?": false,
+      "OnlyCoins": true,
+      "Discount": false,
+      "EventName": "None",
+      "PriceCoins": 100,
+      "PriceTickets": 200
+    }
+  ],
+  "itemsToybox": [
+    {
+      "ItemID": 1000,
+      "EventName": "None",
+      "PriceCoins": 3000
+    }
+  ],
+  "ItemsLoadingScreens": [
+    {
+      "ItemID": 0,
+      "Bundle?": false,
+      "Discount": false,
+      "EventName": "None",
+      "PriceCoins": 500,
+      "PriceTickets": 200
+    }
+  ],
+  "itemssoundpacks": [
+    {
+      "ItemID": 0,
+      "Bundle?": false,
+      "Discount": true,
+      "EventName": "SummerEvent",
+      "PriceCoins": 1500,
+      "PriceTickets": 600
+    }
+  ],
+  "EmoteItems": [
+    {
+      "ItemID": 0,
+      "Bundle?": false,
+      "Discount": false,
+      "EventName": "None",
+      "PriceCoins": 1200,
+      "PriceTickets": 500
+    }
+  ]
+}
