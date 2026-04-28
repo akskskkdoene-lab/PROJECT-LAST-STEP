@@ -1,0 +1,294 @@
+{
+  "bundlesItems": [
+    {
+      "BundleID": 219,
+      "bOutfit": true,
+      "BundleContent": [ 214, 215, 216, 217 ]
+    },
+    {
+      "BundleID": 343,
+      "bOutfit": false,
+      "BundleContent": [ 4, 5, 6, 7, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404 ]
+    },
+    {
+      "BundleID": 344,
+      "bOutfit": true,
+      "BundleContent": [ 132, 1, 133, 134 ]
+    },
+    {
+      "BundleID": 345,
+      "bOutfit": true,
+      "BundleContent": [ 8, 9, 10, 11 ]
+    },
+    {
+      "BundleID": 346,
+      "bOutfit": true,
+      "BundleContent": [ 13, 14, 15, 16 ]
+    },
+    {
+      "BundleID": 347,
+      "bOutfit": true,
+      "BundleContent": [ 17, 18, 19, 20 ]
+    },
+    {
+      "BundleID": 348,
+      "bOutfit": true,
+      "BundleContent": [ 122, 66, 67, 68 ]
+    },
+    {
+      "BundleID": 349,
+      "bOutfit": true,
+      "BundleContent": [ 80, 86, 89, 90, 148 ]
+    },
+    {
+      "BundleID": 350,
+      "bOutfit": true,
+      "BundleContent": [ 177, 178, 179, 180 ]
+    },
+    {
+      "BundleID": 351,
+      "bOutfit": true,
+      "BundleContent": [ 140, 141, 142, 143 ]
+    },
+    {
+      "BundleID": 352,
+      "bOutfit": true,
+      "BundleContent": [ 136, 137, 138, 139 ]
+    },
+    {
+      "BundleID": 353,
+      "bOutfit": true,
+      "BundleContent": [ 186, 187, 188, 189 ]
+    },
+    {
+      "BundleID": 354,
+      "bOutfit": true,
+      "BundleContent": [ 181, 182, 183, 184 ]
+    },
+    {
+      "BundleID": 355,
+      "bOutfit": true,
+      "BundleContent": [ 127, 129, 130, 131 ]
+    },
+    {
+      "BundleID": 356,
+      "bOutfit": true,
+      "BundleContent": [ 288, 289, 290, 291 ]
+    },
+    {
+      "BundleID": 357,
+      "bOutfit": true,
+      "BundleContent": [ 194, 195, 196, 27 ]
+    },
+    {
+      "BundleID": 358,
+      "bOutfit": true,
+      "BundleContent": [ 123, 124, 125, 126 ]
+    },
+    {
+      "BundleID": 359,
+      "bOutfit": true,
+      "BundleContent": [ 144, 145, 146, 147 ]
+    },
+    {
+      "BundleID": 360,
+      "bOutfit": true,
+      "BundleContent": [ 209, 210, 211, 212 ]
+    },
+    {
+      "BundleID": 361,
+      "bOutfit": true,
+      "BundleContent": [ 23, 26, 69, 118 ]
+    },
+    {
+      "BundleID": 362,
+      "bOutfit": true,
+      "BundleContent": [ 71, 149, 150, 151 ]
+    },
+    {
+      "BundleID": 363,
+      "bOutfit": true,
+      "BundleContent": [ 197, 198, 199, 200 ]
+    },
+    {
+      "BundleID": 364,
+      "bOutfit": true,
+      "BundleContent": [ 73, 76, 78, 79 ]
+    },
+    {
+      "BundleID": 365,
+      "bOutfit": true,
+      "BundleContent": [ 292, 293, 294, 295 ]
+    },
+    {
+      "BundleID": 405,
+      "bOutfit": true,
+      "BundleContent": [ 395, 398, 401, 404 ]
+    },
+    {
+      "BundleID": 406,
+      "bOutfit": true,
+      "BundleContent": [ 394, 397, 400, 403 ]
+    },
+    {
+      "BundleID": 407,
+      "bOutfit": 1,
+      "BundleContent": [ 393, 396, 399, 402 ]
+    },
+    {
+      "BundleID": 411,
+      "bOutfit": true,
+      "BundleContent": [ 412, 413, 414, 415 ]
+    },
+    {
+      "BundleID": 422,
+      "bOutfit": true,
+      "BundleContent": [ 418, 419, 420, 421 ]
+    },
+    {
+      "BundleID": 427,
+      "bOutfit": true,
+      "BundleContent": [ 423, 424, 425, 426 ]
+    },
+    {
+      "BundleID": 432,
+      "bOutfit": true,
+      "BundleContent": [ 428, 429, 430, 431 ]
+    },
+    {
+      "BundleID": 408,
+      "bOutfit": true,
+      "BundleContent": [ 4, 5, 6, 7 ]
+    },
+    {
+      "BundleID": 437,
+      "bOutfit": true,
+      "BundleContent": [ 438, 439, 440, 441 ]
+    },
+    {
+      "BundleID": 462,
+      "bOutfit": true,
+      "BundleContent": [ 453, 454, 455 ]
+    },
+    {
+      "BundleID": 463,
+      "bOutfit": true,
+      "BundleContent": [ 456, 458, 459, 460 ]
+    },
+    {
+      "BundleID": 520,
+      "bOutfit": true,
+      "BundleContent": [ 493, 494, 495, 496 ]
+    },
+    {
+      "BundleID": 521,
+      "bOutfit": true,
+      "BundleContent": [ 497, 498, 499, 500 ]
+    },
+    {
+      "BundleID": 638,
+      "bOutfit": false,
+      "BundleContent": [ 606, 607, 608, 609 ]
+    },
+    {
+      "BundleID": 645,
+      "bOutfit": false,
+      "BundleContent": [ 213, 472, 473, 474, 475 ]
+    },
+    {
+      "BundleID": 646,
+      "bOutfit": false,
+      "BundleContent": [ 486, 487, 570, 626, 627, 628, 629, 680 ]
+    },
+    {
+      "BundleID": 647,
+      "bOutfit": false,
+      "BundleContent": [ 686, 464, 482, 483, 444, 501, 502, 503, 504, 671, 672 ]
+    },
+    {
+      "BundleID": 648,
+      "bOutfit": false,
+      "BundleContent": [ 574, 575, 576, 633, 634, 635, 636 ]
+    },
+    {
+      "BundleID": 649,
+      "bOutfit": true,
+      "BundleContent": [ 476, 477, 478, 479, 480 ]
+    },
+    {
+      "BundleID": 650,
+      "bOutfit": true,
+      "BundleContent": [ 490, 491, 492 ]
+    },
+    {
+      "BundleID": 651,
+      "bOutfit": true,
+      "BundleContent": [ 444, 501, 502, 503, 504 ]
+    },
+    {
+      "BundleID": 652,
+      "bOutfit": true,
+      "BundleContent": [ 505, 506, 507, 508 ]
+    },
+    {
+      "BundleID": 653,
+      "bOutfit": true,
+      "BundleContent": [ 509, 510, 511 ]
+    },
+    {
+      "BundleID": 654,
+      "bOutfit": true,
+      "BundleContent": [ 512, 513, 514, 515 ]
+    },
+    {
+      "BundleID": 655,
+      "bOutfit": true,
+      "BundleContent": [ 574, 575, 576 ]
+    },
+    {
+      "BundleID": 656,
+      "bOutfit": true,
+      "BundleContent": [ 577, 578, 579, 580 ]
+    },
+    {
+      "BundleID": 657,
+      "bOutfit": true,
+      "BundleContent": [ 581, 582, 583, 584 ]
+    },
+    {
+      "BundleID": 658,
+      "bOutfit": true,
+      "BundleContent": [ 586, 587, 588, 589 ]
+    },
+    {
+      "BundleID": 659,
+      "bOutfit": true,
+      "BundleContent": [ 613, 614, 615, 616 ]
+    },
+    {
+      "BundleID": 660,
+      "bOutfit": true,
+      "BundleContent": [ 617, 618, 619, 620 ]
+    },
+    {
+      "BundleID": 661,
+      "bOutfit": true,
+      "BundleContent": [ 626, 627, 628, 629 ]
+    },
+    {
+      "BundleID": 662,
+      "bOutfit": false,
+      "BundleContent": [ 476, 477, 478, 479, 480, 551, 571, 630 ]
+    },
+    {
+      "BundleID": 1005,
+      "bOutfit": false,
+      "BundleContent": [ 467, 460, 459, 457, 456, 466, 458 ]
+    },
+    {
+      "BundleID": 687,
+      "bOutfit": false,
+      "BundleContent": [ 481, 450, 469 ]
+    }
+  ]
+}
