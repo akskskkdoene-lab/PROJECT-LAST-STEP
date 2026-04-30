@@ -31,7 +31,28 @@
       "PhaseID": 1,
       "PhaseDisplay": "PHASE 1",
       "EventName": "None",
-      "Items": []
+      "Items": [
+    {
+      "ID": 1,
+      "Level": 1,
+      "Free": true
+    },
+    {
+      "ID": 2,
+      "Level": 2,
+      "Free": false
+    },
+    {
+      "ID": 3,
+      "Level": 3,
+      "Free": false
+    },
+    {
+      "ID": 4,
+      "Level": 4,
+      "Free": true
+    }
+  ]
     }
   ],
   "ItemsLoadingScreens": [
