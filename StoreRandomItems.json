@@ -1,1 +1,32 @@
 
+{
+
+  "ItemsRandomStore": [
+    {
+      "ItemID": 646,
+      "Bundle?": true,
+      "Discount": false,
+      "EventName": "None",
+      "PriceCoins": 1500
+      },
+      {
+      "ItemID": 1005,
+      "Bundle?": true,
+      "Discount": false,
+      "EventName": "None",
+      "PriceCoins": 500,
+      "PriceTickets": 90000
+      },
+      {
+      "ItemID": 466,
+      "Bundle?": false,
+      "OnlyCoins": true,
+      "Discount": false,
+      "EventName": "None",
+      "PriceCoins": 100,
+      "PriceTickets": 200
+    }
+  ],
+    }
+  ]
+}
