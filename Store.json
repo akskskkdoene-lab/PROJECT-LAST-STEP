@@ -1,6 +1,6 @@
 {
   "CurrentToyBox": 1,
-  "VersionServer": "1.9.7b",
+  "VersionServer": "1.9.8b",
   "Items": [
     {
       "ItemID": 646,
@@ -8,16 +8,16 @@
       "Discount": false,
       "EventName": "None",
       "PriceCoins": 1500
-      },
-      {
+    },
+    {
       "ItemID": 1005,
       "Bundle?": true,
       "Discount": false,
       "EventName": "None",
       "PriceCoins": 500,
       "PriceTickets": 90000
-      },
-      {
+    },
+    {
       "ItemID": 466,
       "Bundle?": false,
       "OnlyCoins": true,
@@ -33,27 +33,27 @@
       "PhaseDisplay": "PHASE 1",
       "EventName": "None",
       "Items": [
-    {
-      "ID": 1,
-      "Level": 1,
-      "Free": true
-    },
-    {
-      "ID": 2,
-      "Level": 2,
-      "Free": false
-    },
-    {
-      "ID": 3,
-      "Level": 3,
-      "Free": false
-    },
-    {
-      "ID": 4,
-      "Level": 4,
-      "Free": true
-    }
-  ]
+        {
+          "ID": 1,
+          "Level": 1,
+          "Free": true
+        },
+        {
+          "ID": 2,
+          "Level": 2,
+          "Free": false
+        },
+        {
+          "ID": 3,
+          "Level": 3,
+          "Free": false
+        },
+        {
+          "ID": 4,
+          "Level": 4,
+          "Free": true
+        }
+      ]
     }
   ],
   "ItemsLoadingScreens": [
