@@ -290,5 +290,6 @@
       "bOutfit": false,
       "BundleContent": [ 481, 450, 469 ]
     }
-  ]
+  ],
+  "ExclusiveItems": [ 701, 450, 469 ]
 }
