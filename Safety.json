@@ -4,15 +4,4 @@
     "76561197960287930",
     "ERROR, BAD UNIQUE NET ID"
   ],
-  "contentCreatorProgramm": {
-    "ContentCreatorsIDDS": [
-      "76561198087654321",
-      "ERROR, BAD UNIQUE NET ID"
-    ],
-    "ItemsAddCC": [
-      101,
-      102,
-      205
-    ]
-  }
 }
